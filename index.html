@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Consulta gli esercizi di padel filtrando per numero di giocatori, tipo di esercizio e livello.">
+  <title>Esercizi di Padel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="intestazione">
+    <h1>Esercizi di Padel</h1>
+    <p class="sottotitolo">Scegli i filtri per trovare gli esercizi adatti.</p>
+  </header>
+
+  <main>
+    <form class="filtri" id="filtri" aria-label="Filtri esercizi">
+      <div class="campo">
+        <label for="filtro-giocatori">Numero giocatori</label>
+        <select id="filtro-giocatori" name="giocatori" disabled>
+          <option value="">Tutti</option>
+        </select>
+      </div>
+
+      <div class="campo">
+        <label for="filtro-tipo">Tipo di esercizio</label>
+        <select id="filtro-tipo" name="tipo" aria-describedby="definizione-tipo" disabled>
+          <option value="">Tutti</option>
+        </select>
+        <p class="definizione" id="definizione-tipo" hidden></p>
+      </div>
+
+      <div class="campo">
+        <label for="filtro-livello">Livello</label>
+        <select id="filtro-livello" name="livello" disabled>
+          <option value="">Tutti</option>
+        </select>
+      </div>
+
+      <button type="reset" class="pulsante-reset" id="azzera" disabled>Azzera filtri</button>
+    </form>
+
+    <p class="conteggio" id="conteggio" aria-live="polite">Caricamento esercizi…</p>
+
+    <div class="messaggio-vuoto" id="vuoto" hidden>
+      <p><strong>Nessun esercizio corrisponde ai filtri scelti.</strong></p>
+      <p>Prova a cambiare uno dei menu o a impostarlo su «Tutti».</p>
+    </div>
+
+    <ol class="elenco" id="elenco"></ol>
+  </main>
+
+  <footer class="piede" id="piede"></footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
