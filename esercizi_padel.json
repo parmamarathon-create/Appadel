@@ -1,0 +1,3036 @@
+{
+  "parametri": {
+    "giocatori": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "tipi": {
+      "dritto": "Dritto",
+      "rovescio": "Rovescio",
+      "volee_dritto": "Volée di dritto",
+      "volee_rovescio": "Volée di rovescio",
+      "palla_alta": "Palla alta",
+      "uscita_parete_alta": "Uscita di parete alta",
+      "uscita_parete_bassa": "Uscita di parete bassa",
+      "tattica_gioco": "Tattica / gioco a punti"
+    },
+    "livelli": {
+      "principiante": "Principiante",
+      "intermedio": "Intermedio",
+      "avanzato": "Avanzato"
+    },
+    "definizioni_tipi": {
+      "uscita_parete_alta": "Palla che dopo il vetro resta alta: impatto da cintura in su, colpo dall'alto verso il basso o bajada.",
+      "uscita_parete_bassa": "Palla che esce bassa o muore vicino al vetro o alla griglia: impatto sotto la cintura.",
+      "tattica_gioco": "Giochi a punti, partite condizionate, movimento e tattica senza un colpo specifico."
+    }
+  },
+  "volumi": {
+    "1": "Manuale Operativo del Maestro di Padel (drill 1-50)",
+    "2": "Manuale Operativo del Maestro di Padel - Volume 2 (drill 51-100)"
+  },
+  "esercizi": [
+    {
+      "id": 1,
+      "volume": 1,
+      "titolo": "Il Primo Impatto – Controllo di Diritto e Rovescio da Fondo",
+      "giocatori": 1,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "principiante"
+      ],
+      "livello_originale": "Principiante",
+      "extra": [
+        "impugnatura"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Diritto e rovescio da fondo, indicati nel titolo.",
+      "obiettivo": "Consolidamento dell'impugnatura (Continental), punto di impatto avanzato e chiusura del colpo.",
+      "disposizione": "Maestro (M) a rete con cesto; Allievo (A1) sulla linea di fondo.",
+      "esecuzione": [
+        "1. M invia una palla morbida a un metro da A1 verso il lato del diritto.",
+        "2. A1 esegue la preparazione arretrata, impatta la palla davanti al corpo e chiude verso la spalla opposta.",
+        "3. M alterna subito verso il lato del rovescio.",
+        "4. Si eseguono serie da 15 impatti consecutivi (8 diritto + 7 rovescio)."
+      ],
+      "varianti": [
+        "Variante Avanzata: M varia la profondità di cesto senza preavviso."
+      ],
+      "schema": "+------------------------------------+\n|                [V]                 |\n|                                    |\n|                 M (Cesto)          |\n|-----------------[R]----------------|\n|                                    |\n|         │ ▲                        |\n|   ───►  │ │ (2) Ritorno profondo   |\n|  (1)    │ │                        |\n|  Palla  │ │                        |\n|  M      ▼ │                        |\n|                 A1                 |\n|                [V]                 |\n+------------------------------------+"
+    },
+    {
+      "id": 2,
+      "volume": 1,
+      "titolo": "Gestione della Parete di Fondo Singola (Salida de Pared Bassa)",
+      "giocatori": 1,
+      "tipi": [
+        "uscita_parete_bassa"
+      ],
+      "livelli": [
+        "principiante",
+        "intermedio"
+      ],
+      "livello_originale": "Principiante / Intermedio",
+      "extra": [
+        "salida"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Indicata come salida bassa nel titolo.",
+      "obiettivo": "Lettura del rimbalzo a parete, orientamento del corpo ed uscita in sicurezza.",
+      "disposizione": "M a rete; A1 a fondo campo al centro.",
+      "esecuzione": [
+        "1. M lancia un pallonetto controllato che supera A1 e rimbalza oltre la linea di fondo prima di toccare il vetro.",
+        "2. A1 esegue i passi di arretramento laterali, attende l'uscita della palla dal vetro e colpisce radente la rete verso M.",
+        "3. A1 si riposiziona al centro prima del lancio successivo."
+      ],
+      "varianti": [
+        "Correzione Tecnica: Mantenere la racchetta già alta prima del rimbalzo a parete."
+      ],
+      "schema": "+------------------------------------+\n|                 M                  |\n|-----------------[R]----------------|\n|                 │                  |\n|                 │ (1) Lob spinto M |\n|                 ▼                  |\n|               (Rimbalzo a terra)   |\n|                 │                  |\n|                 ▼                  |\n|              [ VETRO ]             |\n|                 │                  |\n|                 │ (2) Salida A1    |\n|                 ▼                  |\n|                 A1 ───► M          |\n+------------------------------------+"
+    },
+    {
+      "id": 3,
+      "volume": 1,
+      "titolo": "La Volée Tecnica – Bloccaggio e Taglio",
+      "giocatori": 1,
+      "tipi": [
+        "volee_dritto",
+        "volee_rovescio"
+      ],
+      "livelli": [
+        "principiante",
+        "intermedio"
+      ],
+      "livello_originale": "Principiante / Intermedio",
+      "extra": [
+        "volee_blocco",
+        "slice"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Volée di diritto e rovescio indicate nel testo.",
+      "obiettivo": "Tecnica della volée di diritto e rovescio senza apertura posteriore (blocco e slice).",
+      "disposizione": "M a metà campo/fondo; A1 a rete (a 1,5 metri dalla rete).",
+      "esecuzione": [
+        "1. M invia palle a mezza altezza e velocità moderata direttamente al corpo di A1.",
+        "2. A1 blocca la palla avanzando con il piede opposto (sinistro per il diritto, destro per il rovescio).",
+        "3. Il movimento deve stampare la palla imprimendo backspin verso l'angolo di fondo di M."
+      ],
+      "varianti": [
+        "Volume: 4 serie da 20 volée (10 diritto / 10 rovescio alternati)."
+      ],
+      "schema": "+------------------------------------+\n|                 M (Palleggio)      |\n|                 │ ▲                |\n|  (1) Alimentazione │ │ (2) Volée    |\n|      bassa M    │ │     tagliata   |\n|                 ▼ │                |\n|-----------------[R]----------------|\n|                 A1 (A Rete)        |\n|                                    |\n|                [V]                 |\n+------------------------------------+"
+    },
+    {
+      "id": 4,
+      "volume": 1,
+      "titolo": "Bandeja d'Impostazione su Lob Medio",
+      "giocatori": 1,
+      "tipi": [
+        "palla_alta"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "bandeja"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Bandeja.",
+      "obiettivo": "Trasferimento del peso all'indietro, impatto alto al lato del corpo e posizionamento.",
+      "disposizione": "M a fondo campo; A1 parte in posizione di rete.",
+      "esecuzione": [
+        "1. A1 parte a rete. M alza un lob profondo ma non definitivo.",
+        "2. A1 arretra velocemente di profilo con passi incrociati o chassé.",
+        "3. A1 impatta la palla in *Bandeja* all'altezza degli occhi, indirizzando la palla in diagonale profonda.",
+        "4. A1 riprende immediatamente la posizione di rete."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|-----------------[R]----------------|\n|                 A1 (Start a rete)  |\n|                 │                  |\n|                 │ - - -► (Arretra) |\n|                 ▼                  |\n|            (Punto di Bandeja)      |\n|                 │                  |\n|                 └────────► (Diagonale)|\n|                [V]                 |\n+------------------------------------+"
+    },
+    {
+      "id": 5,
+      "volume": 1,
+      "titolo": "La Chiquita – Togliere il Tempo",
+      "giocatori": 1,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "chiquita"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Lato non specificato nel testo: inserito in dritto e rovescio.",
+      "obiettivo": "Sensibilità di tocco per piazzare la palla sui piedi del Maestro a rete.",
+      "disposizione": "M posizionato fisso a rete; A1 a fondo campo.",
+      "esecuzione": [
+        "1. M gioca una palla corta e morbida verso la linea di fondo.",
+        "2. A1 avanza, controlla la velocità e gioca una *chiquita* lenta che scende subito dopo aver superato la rete.",
+        "3. M valuta l'altezza della palla sopra la rete (non deve superare i 20 cm dal nastro)."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (A rete)         |\n|                 ▲                  |\n|                 │ (2) Chiquita ai  |\n|                 │     piedi di M   |\n|-----------------[R]----------------|\n|                 │                  |\n|                 │ (1) Palla lenta M|\n|                 ▼                  |\n|                 A1 (A fondo)       |\n|                [V]                 |\n+------------------------------------+"
+    },
+    {
+      "id": 6,
+      "volume": 1,
+      "titolo": "Bajada de Pared d'Attacco",
+      "giocatori": 1,
+      "tipi": [
+        "uscita_parete_alta"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "bajada"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Bajada su palla che rimbalza alta sul vetro.",
+      "obiettivo": "Attacco aggressivo dal vetro di fondo su pallonetto corto.",
+      "disposizione": "M a rete; A1 a fondo.",
+      "esecuzione": [
+        "1. M alza un lob volutamente corto che rimbalza alto sul vetro di fondo.",
+        "2. A1 si posiziona rapidamente sotto la palla in uscita dal vetro, carica con le gambe e impatta dall'alto verso il basso (bajada spinta o colpita).",
+        "3. A1 segue il colpo e corre a rete per occupare la posizione di attacco."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|-----------------[R]----------------|\n|                 │                  |\n|  (1) Lob corto  │                  |\n|      M alto     ▼                  |\n|              [VETRO]               |\n|                 │                  |\n|                 │ (2) Bajada di    |\n|                 └────────► Potenza |\n|                 A1                 |\n+------------------------------------+"
+    },
+    {
+      "id": 7,
+      "volume": 1,
+      "titolo": "Transizione Difesa-Attacco (Lob + Discesa a Rete)",
+      "giocatori": 1,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "lob",
+        "transizione"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Lato non specificato nel testo: inserito in dritto e rovescio.",
+      "obiettivo": "Riconoscimento del momento opportuno per ribaltare l'inerzia dello scambio.",
+      "disposizione": "M a rete; A1 a fondo campo.",
+      "esecuzione": [
+        "1. M mantiene A1 a fondo con colpi arrotati.",
+        "2. A1 esegue un *lob* alto e profondo che scavalca M costringendolo ad arretrare.",
+        "3. Non appena scagliato il lob, A1 scatta a rete per occupare la posizione dominante prima che M possa rigiocare la palla."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (A Rete)         |\n|                 ▲                  |\n|                 │ (3) M costretto  |\n|                 │     all'arretram.|\n|-----------------[R]----------------|\n|                 ▲                  |\n|  (2) A1 corre   │ (1) Lob alto     |\n|      a rete     │     profondo A1  |\n|  - - - - - - - -│                  |\n|                 A1 (A Fondo)       |\n+------------------------------------+"
+    },
+    {
+      "id": 8,
+      "volume": 1,
+      "titolo": "Difesa del Doppio Vetro (Angolo di Fondo)",
+      "giocatori": 1,
+      "tipi": [
+        "uscita_parete_alta",
+        "uscita_parete_bassa"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "doppio_vetro",
+        "lob",
+        "difesa"
+      ],
+      "affidabilita_tipo": "incerto",
+      "da_verificare": true,
+      "nota_classificazione": "Uscita dal doppio vetro: altezza non specificata.",
+      "obiettivo": "Svincolarsi dalla parete laterale e dal vetro di fondo negli angoli.",
+      "disposizione": "M al centro; A1 nell'angolo di destra o sinistra.",
+      "esecuzione": [
+        "1. M spinge la palla nell'angolo profondo facendo impattare prima il vetro laterale e poi quello di fondo (doppio vetro aperto o chiuso).",
+        "2. A1 esegue il perno con i piedi, legge la rotazione ed esce con un lob alto di salvataggio."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|-----------------[R]----------------|\n|                                    |\n|             (1) Palla d'attacco M  |\n|                 tagliata all'angolo|\n|                 │                  |\n|                 ▼                  |\n|               [V.LAT]              |\n|                 │                  |\n|                 ▼                  |\n|               [V.FONDO]            |\n|                 │                  |\n|                 └──► (2) Uscita A1 |\n|                      in Pallonetto |\n|                      A1            |\n+------------------------------------+"
+    },
+    {
+      "id": 9,
+      "volume": 1,
+      "titolo": "Smash \"Por Tres\" (Uscita da 3 Metri)",
+      "giocatori": 1,
+      "tipi": [
+        "palla_alta"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "smash",
+        "por_tres"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Smash por tres.",
+      "obiettivo": "Tecnica d'impatto sul punto più alto con rotazione in topspin per far uscire la palla lateralmente.",
+      "disposizione": "M a fondo campo; A1 a rete.",
+      "esecuzione": [
+        "1. M alza un lob medio a circa 2 metri dalla rete.",
+        "2. A1 si posiziona sotto la palla, inarca la schiena, impatta nel punto massimo estendendo il braccio ed imprime un forte topspin mirando al vetro di fondo avversario.",
+        "3. La palla deve rimbalzare sul vetro ed uscire sopra la parete laterale da 3 metri."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|                 ▲                  |\n|                 │ (2) Palla esce   |\n|                 │     sopra la     |\n|                 │     parete 3m    |\n|-----------------[R]----------------|\n|                 A1                 |\n|                 ▲                  |\n|                 │ (1) Smash Topspin|\n|                 │     al vetro     |\n|                [V]                 |\n+------------------------------------+"
+    },
+    {
+      "id": 10,
+      "volume": 1,
+      "titolo": "Bloqueo (Volée di Blocco su Palla Potente)",
+      "giocatori": 1,
+      "tipi": [
+        "volee_dritto",
+        "volee_rovescio"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "bloqueo"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Volée di blocco.",
+      "obiettivo": "Assorbimento dell'inerzia dei colpi avversari e gestione del muro a rete.",
+      "disposizione": "M a fondo campo; A1 fisso a rete (a 1 metro dal nastro).",
+      "esecuzione": [
+        "1. M da fondo campo spara palle veloci e tese (bajada o passanti violenti) direttamente contro A1.",
+        "2. A1 non deve aprire il braccio, ma posizionare la pala rigida davanti al corpo, ammortizzando l'impatto per morire l'attacco nei primi metri di campo avversario."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (Spara da fondo) |\n|                 │                  |\n| (1) Bajada/Smash│                  |\n|     forte di M  ▼                  |\n|-----------------[R]----------------|\n|                 A1 (Muro immobile) |\n|                 │                  |\n|                 │ (2) Volée ammort.|\n|                 ▼                  |\n|                [V]                 |\n+------------------------------------+"
+    },
+    {
+      "id": 11,
+      "volume": 1,
+      "titolo": "Difesa sulla Griglia Metallica",
+      "giocatori": 1,
+      "tipi": [
+        "uscita_parete_bassa"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "griglia",
+        "difesa"
+      ],
+      "affidabilita_tipo": "incerto",
+      "da_verificare": true,
+      "nota_classificazione": "Colpi sotto la cintura sulla griglia: considerata uscita bassa.",
+      "obiettivo": "Reattività di mano e adattamento al rimbalzo imprevedibile sulla griglia.",
+      "disposizione": "M a metà campo; A1 a fondo nella zona laterale.",
+      "esecuzione": [
+        "1. M invia una serie di colpi tagliati (*vibora* o volée) direttamente sulla griglia metallica avversaria.",
+        "2. A1 mantiene le gambe piegate, il baricentro basso e la pala pronta sotto la linea della cintura per reagire immediatamente a qualsiasi variazione di traiettoria."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|-----------------[R]----------------|\n|                                    |\n|             (1) Colpo tagliato M   |\n|                 alla griglia       |\n|                 │                  |\n|                 ▼                  |\n|              [GRIGLIA]             |\n|                 │ (Rimbalzo anomalo)|\n|                 ▼                  |\n|                 A1 (Reazione rapida|\n|                     con pala bassa)|\n+------------------------------------+"
+    },
+    {
+      "id": 12,
+      "volume": 1,
+      "titolo": "Esercizio Combinato – \"La Sequenza Perfetta\"",
+      "giocatori": 1,
+      "tipi": [
+        "volee_dritto",
+        "volee_rovescio",
+        "uscita_parete_alta",
+        "uscita_parete_bassa"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "circuito",
+        "chiquita"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Sequenza: volée, salida, chiquita, volée. Lato non specificato nel testo: inserito in volée di dritto e di rovescio. Salida generica: inserita in uscita alta e bassa.",
+      "obiettivo": "Sintesi motoria e resistenza fisica in situazione di scambio variabile.",
+      "disposizione": "M al centro; A1 a coprire tutto il campo.",
+      "esecuzione": [
+        "M propone ad A1 la seguente sequenza fissa per 10 ripetizioni:",
+        "1. A1 gioca una Volée a rete.",
+        "2. M alza un Lob → A1 arretra ed esce in Salida de Pared.",
+        "3. M rigiocando corto → A1 esegue una Chiquita ed avanza.",
+        "4. M gioca sulle gambe → A1 chiude con Volée definitiva."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|-----------------[R]----------------|\n|  (1) Volée ──► A1 (A rete)         |\n|                 │                  |\n|  (2) Lob   ──► A1 (Corre a fondo)  |\n|                 │                  |\n|  (3) Salida ──► A1 (Colpisce)      |\n|                 │                  |\n|  (4) Chiquita─► A1 (Riconquista R.)|\n+------------------------------------+"
+    },
+    {
+      "id": 13,
+      "volume": 1,
+      "titolo": "La Catena Cinetica della Copertura Centrale",
+      "giocatori": 2,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "principiante",
+        "intermedio"
+      ],
+      "livello_originale": "Principiante / Intermedio",
+      "extra": [
+        "posizionamento",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Movimento coordinato della coppia, nessun colpo specifico.",
+      "obiettivo": "Movimento coordinato della coppia: \"Si scivola insieme come legati da una corda\".",
+      "disposizione": "M a fondo campo; A1 e A2 a rete.",
+      "esecuzione": [
+        "1. A1 e A2 occupano le posizioni di rete (sinistra e destra).",
+        "2. M lancia palle alternate nei corridoi laterali ed al centro.",
+        "3. Se M spinge a sinistra, A1 copre il lungo linea e A2 stringe al centro. Se M spinge a destra, A2 copre il suo lato e A1 chiude al centro.",
+        "4. La coppia non deve mai lasciare una spaccatura centrale superiore a 1,5 metri."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (Lancia al centro)|\n|-----------------[R]----------------|\n|                                    |\n|       A1 ◄─── (Corda) ───► A2      |\n|        │                    │      |\n|        ▼                    ▼      |\n|  (Chi ha la palla      (Chi non ha |\n|   sulla diagonale       chiude il  |\n|   interviene)           centro)    |\n+------------------------------------+"
+    },
+    {
+      "id": 14,
+      "volume": 1,
+      "titolo": "Palleggio Incrociato Continuo con Cambio Parallelo",
+      "giocatori": 2,
+      "tipi": [
+        "dritto",
+        "rovescio",
+        "volee_dritto",
+        "volee_rovescio"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "diagonale",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Palleggio da fondo e volée d'attacco finale. Lato non specificato nel testo: inserito in dritto e rovescio. Lato non specificato nel testo: inserito in volée di dritto e di rovescio.",
+      "obiettivo": "Costruzione del punto in diagonale e lettura del cambio di ritmo.",
+      "disposizione": "M a fondo a sinistra; A1 a fondo a destra; A2 a rete a destra.",
+      "esecuzione": [
+        "1. A1 e M palleggiano continuamente in diagonale a ritmo controllato.",
+        "2. Su indicazione di M (\"CAMBIO!\"), A1 deve giocare un colpo parallelo lungolinea verso A2 che attende a rete per intercettare con una volée d'attacco."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (Fondo SX)       |\n|                 │ ▲                |\n|  (1) Palleggio  │ │ (Diagonale)    |\n|      in Diagonale │                |\n|-----------------[R]----------------|\n|                 │        A2 (Rete) |\n|                 ▼                  |\n|                 A1 (Fondo DX)      |\n+------------------------------------+"
+    },
+    {
+      "id": 15,
+      "volume": 1,
+      "titolo": "Il Lob Tattico e la Presa della Rete Insieme",
+      "giocatori": 2,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "lob",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Lob da fondo e salita a rete della coppia. Lato non specificato nel testo: inserito in dritto e rovescio.",
+      "obiettivo": "Sincronismo nella salita a rete della coppia.",
+      "disposizione": "M a rete; A1 e A2 a fondo campo.",
+      "esecuzione": [
+        "1. M mantiene A1 e A2 a fondo campo.",
+        "2. Appena uno dei due allievi (es. A1) esegue un lob efficace sopra la testa di M, entrambi gli allievi devono scattare contemporaneamente verso la rete.",
+        "3. Non è ammesso che un solo giocatore salga a rete lasciando il compagno a fondo."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (A rete)         |\n|                 │                  |\n|                 │ (1) M spinge     |\n|                 ▼                  |\n|        A1              A2          |\n|        │ (2) Lob alto  │           |\n|        └───────►       │           |\n|  - - - - - - - - - - - - - - - - - |\n|  A1 ▲                  A2 ▲        |\n|     │ (3) Avanzano     │  │        |\n|     │     INSIEME      │  │        |\n|  (Nuova Posizione di Rete)         |\n+------------------------------------+"
+    },
+    {
+      "id": 16,
+      "volume": 1,
+      "titolo": "La Gestione della \"Bandeja Cross\" e Copertura del Compagno",
+      "giocatori": 2,
+      "tipi": [
+        "palla_alta"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "bandeja",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Bandeja incrociata.",
+      "obiettivo": "Assistenza reciproca sulla palla alta incrociata.",
+      "disposizione": "M a fondo campo a destra; A1 (rete sx) e A2 (rete dx).",
+      "esecuzione": [
+        "1. M alza un pallonetto diagonale profondo verso A1 (sinistra).",
+        "2. A1 arretra per giocare una Bandeja diagonale.",
+        "3. A2 (destra) scivola verso il centro per coprire lo spazio lasciato scoperto da A1 ed intercettare l'eventuale contrattacco rapido di M."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|-----------------[R]----------------|\n|        A1 (Rete SX)    A2 (Rete DX)|\n|        │               │           |\n|        │ (1) Bandeja   │ (2) Copre |\n|        ▼     profonda  ▼     il    |\n|     [VETRO]               centro   |\n+------------------------------------+"
+    },
+    {
+      "id": 17,
+      "volume": 1,
+      "titolo": "Attacco a Parete Differenziato (Bajada vs Chiquita)",
+      "giocatori": 2,
+      "tipi": [
+        "uscita_parete_alta"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "bajada",
+        "chiquita",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Bajada e chiquita su palla alta dal vetro di fondo.",
+      "obiettivo": "Variazione tattica della coppia da fondo campo.",
+      "disposizione": "M al centro a rete; A1 e A2 a fondo.",
+      "esecuzione": [
+        "1. M lancia due palle alte contemporanee sul vetro di fondo: una per A1 e una per A2.",
+        "2. A1 deve eseguire una *Bajada* di potenza al centro.",
+        "3. A2 deve eseguire una *Chiquita* stretta sull'angolo.",
+        "4. La coppia impara a variare le soluzioni offensive partendo dalla medesima posizione di rimbalzo a parete."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (A rete)         |\n|-----------------[R]----------------|\n|        A1              A2          |\n|     (Vetro)         (Vetro)        |\n|        │               │           |\n|        ▼               ▼           |\n|    [Bajada]       [Chiquita]       |\n|    Potente        Sui piedi        |\n+------------------------------------+"
+    },
+    {
+      "id": 18,
+      "volume": 1,
+      "titolo": "Comunicazione Chiamata Palla (\"TUA!\", \"MIA!\", \"LASCIA!\")",
+      "giocatori": 2,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "principiante",
+        "intermedio"
+      ],
+      "livello_originale": "Principiante / Intermedio",
+      "extra": [
+        "comunicazione",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Chiamata della palla, nessun colpo specifico.",
+      "obiettivo": "Eliminare l'incertezza sulle palle centrali tra i due compagni.",
+      "disposizione": "M a fondo campo; A1 e A2 a rete.",
+      "esecuzione": [
+        "1. M lancia palle fluttuanti ed imprecise esattamente sulla linea divisoria centrale tra A1 e A2.",
+        "2. Prima che la palla superi la rete, uno dei due allievi deve chiamare a voce alta (\"MIA!\" o \"TUA!\").",
+        "3. Se nessuno chiama la palla prima dell'impatto, il punto viene considerato perso d'ufficio."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|                 │                  |\n|                 │ (1) Palla lenta  |\n|                 │     esattamente  |\n|                 ▼     al centro    |\n|-----------------[R]----------------|\n|             (ZONA CRITICA)         |\n|        A1       │      A2          |\n|        (Chi chiama ad alta voce    |\n|         \"MIA\" impatta la palla)    |\n+------------------------------------+"
+    },
+    {
+      "id": 19,
+      "volume": 1,
+      "titolo": "Difesa ad Oltraggio (20 Colpi senza Errore)",
+      "giocatori": 2,
+      "tipi": [
+        "uscita_parete_alta",
+        "uscita_parete_bassa",
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "difesa",
+        "lob",
+        "resistenza"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Difesa con lob e uscite da parete lente; esercizio di resistenza. Salida generica: inserita in uscita alta e bassa.",
+      "obiettivo": "Costruzione della pazienza difensiva in coppia.",
+      "disposizione": "M a rete da solo; A1 e A2 a fondo campo.",
+      "esecuzione": [
+        "1. M attacca a rete variando volée e bandeje senza cercare il punto vincente rapido.",
+        "2. A1 e A2 devono difendere alternativamente usando solo colpi di contenimento (pallonetti alti e uscite da parete lente).",
+        "3. L'obiettivo della coppia è raggiungere 20 passaggi consecutivi senza commettere errori non forzati."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (Attacca a rete) |\n|                 │ ▲                |\n|                 │ │ (Palleggio     |\n|                 ▼ │  continuo)     |\n|-----------------[R]----------------|\n|        A1              A2          |\n|     (Difesa)        (Difesa)       |\n+------------------------------------+"
+    },
+    {
+      "id": 20,
+      "volume": 1,
+      "titolo": "Il Muro Doppio (Doppia Volée a Reti Basse)",
+      "giocatori": 2,
+      "tipi": [
+        "volee_dritto",
+        "volee_rovescio"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "bloqueo",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Volée di blocco.",
+      "obiettivo": "Reattività e controllo delle mani sotto pressione a rete per la coppia.",
+      "disposizione": "M al centro a fondo; A1 e A2 vicinissimi alla rete (1 metro).",
+      "esecuzione": [
+        "1. M invia una sequenza ritmata di colpi tesi contro la coppia posizionata a rete.",
+        "2. A1 e A2 devono alternare colpi d'istinto (volée di blocco) mantenendo la posizione avanzata senza mai fare un passo indietro."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (Dispara colpi)  |\n|                 │                  |\n|                 ▼                  |\n|-----------------[R]----------------|\n|        A1              A2          |\n|     (Volée DX)      (Volée SX)     |\n|        └───────┬───────┘           |\n|                ▼                   |\n|      (Chiudono ogni angolo)        |\n+------------------------------------+"
+    },
+    {
+      "id": 21,
+      "volume": 1,
+      "titolo": "Ruota della Diagonale (Cross-Court Duel)",
+      "giocatori": 2,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "diagonale",
+        "lob",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Lato non specificato nel testo: inserito in dritto e rovescio.",
+      "obiettivo": "Domare la diagonale di destra e di sinistra.",
+      "disposizione": "M gioca da un lato del campo; A1 e A2 si alternano sulla diagonale opposta.",
+      "esecuzione": [
+        "1. A1 palleggia in diagonale con M per 5 colpi consecutivi (cercando griglia e angoli).",
+        "2. Al 5° colpo, A1 gioca un pallonetto profondo e scambia di posto in corsa con A2, che subentra immediatamente nel palleggio senza fermare il gioco."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (Fisso a DX)     |\n|-----------------[R]----------------|\n|        A1 (Attivo)     A2 (In attesa)|\n|        (Palleggia in   (Entra dopo |\n|         diagonale)      5 colpi)   |\n+------------------------------------+"
+    },
+    {
+      "id": 22,
+      "volume": 1,
+      "titolo": "Attacco sulla Griglia Laterale in Coppia",
+      "giocatori": 2,
+      "tipi": [
+        "volee_dritto",
+        "volee_rovescio"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "griglia",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Volée tagliate verso la griglia.",
+      "obiettivo": "Sfruttare la griglia metallica come bersaglio tattico per la coppia a rete.",
+      "disposizione": "M a fondo campo; A1 e A2 a rete.",
+      "esecuzione": [
+        "1. M alimenta palle a mezza altezza a rete per la coppia.",
+        "2. A1 (da sinistra) deve impattare in volée tagliata cercando l'impatto con la griglia laterale sinistra.",
+        "3. A2 (da destra) fa lo stesso cercando la griglia destra.",
+        "4. La coppia analizza il diverso comportamento della palla in base all'angolo di incidenza."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|-----------------[R]----------------|\n|        A1              A2          |\n|        │               │           |\n|        │ (Volée        │ (Volée    |\n|        │  tagliata)    │  tagliata)|\n|        ▼               ▼           |\n|   [GRIGLIA SX]    [GRIGLIA DX]     |\n+------------------------------------+"
+    },
+    {
+      "id": 23,
+      "volume": 1,
+      "titolo": "Chiquita e Sovrapposizione d'Attacco",
+      "giocatori": 2,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "chiquita",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Lato non specificato nel testo: inserito in dritto e rovescio.",
+      "obiettivo": "Creare superiorità numerica a rete tramite sovrapposizione.",
+      "disposizione": "M a rete; A1 e A2 a fondo.",
+      "esecuzione": [
+        "1. A1 da fondo esegue una *Chiquita* precisa verso l'angolo opposto occupato da M.",
+        "2. Contemporaneamente, A2 (che era a fondo senza palla) scatta in diagonale a rete per chiudere sulla volée d'emergenza di M."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (A rete)         |\n|-----------------[R]----------------|\n|  (2) A2 scatta  ▲                  |\n|      in incrociato│                 |\n|      A2 - - - - -┤ (1) Chiquita A1 |\n|                  │                 |\n|                 A1 (A fondo)       |\n+------------------------------------+"
+    },
+    {
+      "id": 24,
+      "volume": 1,
+      "titolo": "Contropiede su Lob Profondo",
+      "giocatori": 2,
+      "tipi": [
+        "uscita_parete_alta"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "bajada",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Bajada su rimbalzo alto dal vetro.",
+      "obiettivo": "Trasformare una situazione di difesa passiva a parete in contrattacco.",
+      "disposizione": "M a rete; A1 e A2 a fondo.",
+      "esecuzione": [
+        "1. M forza un lob su A1.",
+        "2. A1 fa passare la palla, legge il rimbalzo alto sul vetro ed esegue una *Bajada* violenta al centro.",
+        "3. A2 (il compagno) legge l'azione di A1 e scatta subito a rete per intercettare l'eventuale colpo difensivo di M."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (Pressa a rete)  |\n|-----------------[R]----------------|\n|        A1              A2          |\n|     (Arretra)          │           |\n|        │               │           |\n|        ▼               │           |\n|  (Rimbalzo Alto)       │           |\n|        │               │           |\n|        └──► Bajada ───►┴──► Inserimento\n|             Centrale        di A2 a rete\n+------------------------------------+"
+    },
+    {
+      "id": 25,
+      "volume": 1,
+      "titolo": "Match Condizionato – \"Solamente Parete\"",
+      "giocatori": 2,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "gioco_a_punti",
+        "parete"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Game a punti con regola speciale.",
+      "obiettivo": "Controllo tattico e riduzione degli errori gratuiti da fondo.",
+      "disposizione": "M a rete; A1 e A2 a fondo in partita reale a punti.",
+      "esecuzione": [
+        "1. Si gioca un game vero a punti tra M ed la coppia (A1+A2).",
+        "2. Regola speciale: Ogni colpo sferrato da A1 ed A2 deve obbligatoriamente toccare una parete (vetro o griglia) nel campo di M dopo aver fatto il primo rimbalzo a terra.",
+        "3. Se M riesce a bloccare la palla prima del rimbalzo a parete, il punto è di M."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|-----------------[R]----------------|\n|        A1              A2          |\n|  (Ogni palla giocata dalla coppia  |\n|   deve toccare almeno 1 parete      |\n|   avversaria dopo il rimbalzo)     |\n+------------------------------------+"
+    },
+    {
+      "id": 26,
+      "volume": 1,
+      "titolo": "La Struttura 2 vs 1 Classica con Il Maestro a Supporto",
+      "giocatori": 3,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "principiante",
+        "intermedio"
+      ],
+      "livello_originale": "Principiante / Intermedio",
+      "extra": [
+        "2_vs_1",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Struttura 2 vs 1 con rotazione.",
+      "obiettivo": "Lavoro intensivo di saturazione per l'allievo in diagonale ed intesa per la coppia.",
+      "disposizione": "A1 (solo su un lato); A2 e A3 in coppia sull'altro lato; M fuori campo a cesto.",
+      "esecuzione": [
+        "1. A1 gioca da solo contro la coppia A2-A3.",
+        "2. M alimenta le palle partendo sempre da A1 per metterlo sotto pressione.",
+        "3. A1 deve cercare costantemente il centro tra A2 e A3 per mettere zizzania nella coppia.",
+        "4. Rotazione ogni 4 minuti: A1 → A2 → A3."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A2              A3          |\n|        (Coppia a Fondo o Rete)     |\n|-----------------[R]----------------|\n|        A1              M (Cesto)   |\n|        (Giocatore Solo)            |\n+------------------------------------+"
+    },
+    {
+      "id": 27,
+      "volume": 1,
+      "titolo": "Il Re del Campo (King of the Court) con Rotazione Veloce",
+      "giocatori": 3,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "gioco_a_punti",
+        "2_vs_1"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Mini-punti con rotazione.",
+      "obiettivo": "Agonismo, gestione della pressione ed entrata rapida in partita.",
+      "disposizione": "A1 e A2 (Campioni a rete); A3 e M (Sfidanti a fondo).",
+      "esecuzione": [
+        "1. Si giocano mini-punti da fondo con servizio di M ad A3.",
+        "2. Se A3 e M vincono 2 punti di fila, conquistano la rete e l'allievo perdente esce dal campo.",
+        "3. L'allievo in attesa entra immediatamente per fare coppia con M."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1              A2          |\n|        (CAMPIONI - Rete)           |\n|-----------------[R]----------------|\n|        A3              M           |\n|        (SFIDANTI - Fondo)          |\n+------------------------------------+"
+    },
+    {
+      "id": 28,
+      "volume": 1,
+      "titolo": "Attacco a Salva-Gente (2 vs 1 in Sovraccarico)",
+      "giocatori": 3,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "passante",
+        "lob",
+        "2_vs_1"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Passanti e pallonetti contro due giocatori a rete. Lato non specificato nel testo: inserito in dritto e rovescio.",
+      "obiettivo": "Allenare l'allievo solo a difendersi dall'attacco combinato a rete della coppia.",
+      "disposizione": "A1 e A2 fisso a rete; A3 a fondo campo da solo; M a cesto a fondo.",
+      "esecuzione": [
+        "1. A1 e A2 mantengono aggressivamente la rete.",
+        "2. M lancia palle a velocità medio-alta verso A3 che si trova da solo a fondo.",
+        "3. A3 deve tentare di superare il muro a rete con passanti radenti o pallonetti millimetrici.",
+        "4. Punteggio: A3 ottiene 2 punti per ogni pallonetto che scavalca la coppia."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1 (Rete)       A2 (Rete)   |\n|-----------------[R]----------------|\n|                 │                  |\n|  (1) M lancia   │                  |\n|      palle corte▼                  |\n|                A3 (Difensore Solo) |\n+------------------------------------+"
+    },
+    {
+      "id": 29,
+      "volume": 1,
+      "titolo": "Triangolo Continuo di Volée a Tre",
+      "giocatori": 3,
+      "tipi": [
+        "volee_dritto",
+        "volee_rovescio"
+      ],
+      "livelli": [
+        "principiante",
+        "intermedio"
+      ],
+      "livello_originale": "Principiante / Intermedio",
+      "extra": [
+        "triangolo"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Volée a tre.",
+      "obiettivo": "Precisione nei colpi d'inizio e controllo del volo senza rimbalzo.",
+      "disposizione": "A1, A2 e A3 disposti a triangolo attorno alla rete; M supervisiona.",
+      "esecuzione": [
+        "1. A1 gioca volée su A2.",
+        "2. A2 gioca volée incrociata su A3.",
+        "3. A3 gioca volée lungolinea su A1.",
+        "4. La palla deve volare senza mai toccare terra per almeno 30 passaggi consecutivi."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 A1                 |\n|                 │                  |\n|                 │ (1) Volée        |\n|                 ▼                  |\n|-----------------[R]----------------|\n|        A2 ──────────────► A3       |\n|        (2) Volée          (3) Volée|\n|            Incrociata         Lungolinea\n+------------------------------------+"
+    },
+    {
+      "id": 30,
+      "volume": 1,
+      "titolo": "Rotazione \"Caccia allo Smash\"",
+      "giocatori": 3,
+      "tipi": [
+        "palla_alta"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "smash",
+        "difesa"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Smash continuo.",
+      "obiettivo": "Lettura della palla alta e difesa fuori dal campo o da fondo.",
+      "disposizione": "A1 a rete esegue lo smash; A2 e A3 a fondo difendono; M alimenta da cesto.",
+      "esecuzione": [
+        "1. M lancia palle alte al centro per A1.",
+        "2. A1 esegue uno smash (cercando di far uscire la palla o farla rimbalzare alta sul vetro).",
+        "3. A2 e A3 devono anticipare la traiettoria, recuperare la palla ed rimetterla in gioco.",
+        "4. Dopo 5 smash, A1 ruota a fondo ed entra A2."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A2              A3          |\n|        (Difensori a Fondo)         |\n|-----------------[R]----------------|\n|                 A1 (Smash)         |\n|                 ▲                  |\n|                 │ (1) Cesto M      |\n|                 M (Cesto)          |\n+------------------------------------+"
+    },
+    {
+      "id": 31,
+      "volume": 1,
+      "titolo": "Diagonale di Fuoco (2 vs 1 con M Perno)",
+      "giocatori": 3,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "diagonale",
+        "2_vs_1"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Lato non specificato nel testo: inserito in dritto e rovescio.",
+      "obiettivo": "Saturazione della diagonale principale.",
+      "disposizione": "A1 in diagonale con A2; A3 sulla linea parallela assistito da M.",
+      "esecuzione": [
+        "1. Si gioca uno scambio continuo e vincolato esclusivamente nella diagonale tra A1 e A2.",
+        "2. Se la palla esce verso il centro, A3 a rete o M possono intervenire \"intercettando\" il colpo e chiudendo il punto al volo."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A2 (Fondo DX)   M (Fondo SX)|\n|-----------------[R]----------------|\n|        A3 (Rete DX)    A1 (Fondo SX)|\n+------------------------------------+"
+    },
+    {
+      "id": 32,
+      "volume": 1,
+      "titolo": "Il Carosello del Lob e Attacco",
+      "giocatori": 3,
+      "tipi": [
+        "palla_alta",
+        "volee_dritto",
+        "volee_rovescio",
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "lob",
+        "bandeja"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "A1 gestisce bandeje e volée; A2 e A3 alzano lob a rotazione. Lato non specificato nel testo: inserito in volée di dritto e di rovescio.",
+      "obiettivo": "Spostamento costante, riposizionamento e fiato.",
+      "disposizione": "A1 a rete; A2 e A3 in fila a fondo campo; M da cesto.",
+      "esecuzione": [
+        "1. M alza un lob per A2 a fondo.",
+        "2. A2 colpisce, corre subito verso il lato opposto ed esce dal campo.",
+        "3. A3 subentra immediatamente, colpisce il lob successivo lanciato da M e ruota a sua volta.",
+        "4. A1 a rete deve gestire le bandeje/volée continue affrontando un avversario sempre \"fresco\"."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 A1 (Attaccante)    |\n|-----------------[R]----------------|\n|        A2 ───► (Colpisce il Lob)   |\n|        ▲                           |\n|        │ (Rotazione a giro)        |\n|        A3 ───► (Pronto al subentro)|\n+------------------------------------+"
+    },
+    {
+      "id": 33,
+      "volume": 1,
+      "titolo": "La Trappola della Chiquita a Tre",
+      "giocatori": 3,
+      "tipi": [
+        "dritto",
+        "rovescio",
+        "volee_dritto",
+        "volee_rovescio"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "chiquita",
+        "2_vs_1"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Chiquita da fondo; i due a rete rialzano palle basse. Lato non specificato nel testo: inserito in dritto e rovescio. Lato non specificato nel testo: inserito in volée di dritto e di rovescio.",
+      "obiettivo": "Sensibilità nel correre in avanti ed impattare sotto il nastro.",
+      "disposizione": "A1 e A2 a rete; A3 a fondo; M a cesto accanto ad A3.",
+      "esecuzione": [
+        "1. A3 da fondo deve alternare una *Chiquita* sui piedi di A1 e una sui piedi di A2.",
+        "2. A1 e A2 non possono chiudere al volo, ma devono attendere che la palla scenda sotto la rete e rialzarla con un tocco morbido senza regalare il contrattacco."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1 (Rete)       A2 (Rete)   |\n|-----------------[R]----------------|\n|                 A3                 |\n|                 │ (Esegue Chiquita)|\n|                 ▼                  |\n|             [PIEDI A1/A2]          |\n+------------------------------------+"
+    },
+    {
+      "id": 34,
+      "volume": 1,
+      "titolo": "Palleggio a 8 Singolo contro Coppia",
+      "giocatori": 3,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "diagonale",
+        "2_vs_1"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Colpi esclusivamente paralleli contro colpi incrociati. Lato non specificato nel testo: inserito in dritto e rovescio.",
+      "obiettivo": "Controllo delle traiettorie fisse (Incrociato vs Parallelo).",
+      "disposizione": "A1 da solo su metà campo; A2 e A3 nell'altra metà campo.",
+      "esecuzione": [
+        "1. A1 gioca esclusivamente colpi paralleli.",
+        "2. A2 e A3 giocano esclusivamente colpi incrociati.",
+        "3. La traiettoria della palla disegna un \"8\" perfetto sopra la rete.",
+        "4. Conta dei passaggi validi prima del primo errore."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A2              A3          |\n|-----------------[R]----------------|\n|        A1                          |\n|                                    |\n|  (A1 gioca Sempr Parallelo)       |\n|  (A2 e A3 giocano Sempre Incrociato)|\n+------------------------------------+"
+    },
+    {
+      "id": 35,
+      "volume": 1,
+      "titolo": "Costruzione del Punto in \"Handicap\"",
+      "giocatori": 3,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "gioco_a_punti",
+        "2_vs_1"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Game con handicap.",
+      "obiettivo": "Allenare la gestione delle zone scoperte.",
+      "disposizione": "A1 da solo (ha a disposizione tutto il campo avversario); A2 e A3 in coppia (possono giocare solo nella metà campo di A1).",
+      "esecuzione": [
+        "1. Si gioca un game vero.",
+        "2. A1 da solo ottiene il punto se indirizza la palla in qualsiasi zona del campo di A2 e A3.",
+        "3. A2 e A3 possono fare punto solo ed esclusivamente indirizzando la palla nella metà campo occupata fisicamente da A1."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A2              A3          |\n|        (Campo completo valido)     |\n|-----------------[R]----------------|\n|        A1                          |\n|        (Può difendere solo su 1/2) |\n+------------------------------------+"
+    },
+    {
+      "id": 36,
+      "volume": 1,
+      "titolo": "Transizione e Attacco a Parete a Tre",
+      "giocatori": 3,
+      "tipi": [
+        "uscita_parete_alta"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "salida",
+        "2_vs_1"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Salida su palla alta verso il vetro, poi salita a rete.",
+      "obiettivo": "Uscita di parete aggressiva sotto la supervisione del Maestro.",
+      "disposizione": "A1 a rete; A2 e A3 a fondo; M posizionato al centro campo a dirigere.",
+      "esecuzione": [
+        "1. M invia una palla alta verso il vetro di fondo di A2.",
+        "2. A2 esegue una Salida de Pared e deve servire l'inserimento di A3 che scatta a rete a fare coppia con A1.",
+        "3. Si crea una situazione di 2 vs 1 immediata."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 A1 (Rete)          |\n|-----------------[R]----------------|\n|                 M (Regista)        |\n|        A2              A3          |\n|     (Salida)        (Salida)       |\n+------------------------------------+"
+    },
+    {
+      "id": 37,
+      "volume": 1,
+      "titolo": "Punti a Pressione \"Tie-Break a 10\"",
+      "giocatori": 3,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "principiante",
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Tutti i livelli",
+      "extra": [
+        "gioco_a_punti",
+        "2_vs_1"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Tie-break a 10 con rotazione.",
+      "obiettivo": "Gestione del punteggio e dello stress agonistico.",
+      "disposizione": "A1 difende il trono a rete; A2 e A3 sfidano da fondo alternandosi con M.",
+      "esecuzione": [
+        "1. A1 gioca a rete da solo contro la coppia a fondo (A2 + A3).",
+        "2. Chi vince il punto ottiene 1 punto sulla lavagna.",
+        "3. Se la coppia a fondo commette errore non forzato, A1 riceve 2 punti bonus.",
+        "4. Vince chi arriva prima a 10 punti."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 A1 (Re a Rete)     |\n|-----------------[R]----------------|\n|        A2 / A3 (Sfidanti a Fondo)  |\n+------------------------------------+"
+    },
+    {
+      "id": 38,
+      "volume": 1,
+      "titolo": "La Struttura 2 vs 2 con Maestro \"Jolly\"",
+      "giocatori": 4,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "principiante",
+        "intermedio"
+      ],
+      "livello_originale": "Principiante / Intermedio",
+      "extra": [
+        "gioco_a_punti"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Partita 2 contro 2 con correzioni del maestro.",
+      "obiettivo": "Sviluppo del gioco reale con correzione istantanea della scelta tattica.",
+      "disposizione": "Coppia Alfa (A1+A2) vs Coppia Beta (A3+A4); M posizionato a bordo rete al centro.",
+      "esecuzione": [
+        "1. Si gioca una partita reale 2 contro 2.",
+        "2. M sta a rete al centro. In qualsiasi momento dello scambio, M può chiamare \"STOP!\", fermare l'azione e correggere la postura o il posizionamento dei 4 allievi in campo.",
+        "3. M può anche intervenire come \"Jolly\", toccando la palla per prolungare lo scambio se la palla è troppo facile."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1              A2          |\n|        (Coppia Alfa)               |\n|-----------------[R]----------------|\n|                 M (Jolly a rete)   |\n|-----------------[R]----------------|\n|        A3              A4          |\n|        (Coppia Beta)               |\n+------------------------------------+"
+    },
+    {
+      "id": 39,
+      "volume": 1,
+      "titolo": "Servizio e Risposta con Schema Chiamato",
+      "giocatori": 4,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "servizio",
+        "risposta",
+        "lob",
+        "chiquita"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Risposta obbligata a lob o chiquita. Lato non specificato nel testo: inserito in dritto e rovescio.",
+      "obiettivo": "Automatizzare la tattica nei primi 3 colpi del punto.",
+      "disposizione": "A1 (Servizio), A2 (Compagno battitore a rete); A3 (Risposta), A4 (Compagno rispeditore a fondo).",
+      "esecuzione": [
+        "1. M prima del servizio chiama lo schema per A3 (es. \"SOLO LOB!\" o \"SOLO CHIQUITA!\").",
+        "2. A1 serve su A3. A3 deve eseguire rigorosamente lo schema chiamato.",
+        "3. A1 ed A2 reagiscono di conseguenza muovendosi in sincronia."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1 (Battuta)    A2 (Rete)   |\n|                 │                  |\n|                 │ (1) Servizio     |\n|                 ▼                  |\n|-----------------[R]----------------|\n|        A3 (Risposta)   A4 (Fondo)  |\n|        │                           |\n|        └──► (2) Risposta obbligata |\n|             (Lob o Chiquita)       |\n+------------------------------------+"
+    },
+    {
+      "id": 40,
+      "volume": 1,
+      "titolo": "Il Cambio della Rete (Battle for the Net)",
+      "giocatori": 4,
+      "tipi": [
+        "volee_dritto",
+        "volee_rovescio",
+        "palla_alta",
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "lob",
+        "chiquita",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Volée e smash dalla rete; lob o chiquita da fondo per conquistare la rete. Lato non specificato nel testo: inserito in volée di dritto e di rovescio.",
+      "obiettivo": "Transizione dinamica e conquista del nastro.",
+      "disposizione": "A1+A2 partono a rete; A3+A4 partono a fondo.",
+      "esecuzione": [
+        "1. A1+A2 possono fare punto solo con volée o smash.",
+        "2. A3+A4 da fondo devono conquistare la posizione di rete tramite Lob o Chiquita.",
+        "3. Appena A3+A4 superano la linea di metà campo e costringono A1+A2 ad arretrare, i ruoli si invertono ed il punteggio raddoppia."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1              A2          |\n|        (Parte a Rete)              |\n|-----------------[R]----------------|\n|        A3              A4          |\n|        (Parte a Fondo)             |\n|                                    |\n|  (L'obiettivo di A3+A4 è strappare  |\n|   la rete alla coppia A1+A2)       |\n+------------------------------------+"
+    },
+    {
+      "id": 41,
+      "volume": 1,
+      "titolo": "Attacco e Difesa sulle Diagonali Incrociate Simultanee",
+      "giocatori": 4,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "diagonale"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Due palle in gioco contemporaneamente. Lato non specificato nel testo: inserito in dritto e rovescio.",
+      "obiettivo": "Isolamento tattico, concentrazione e gestione del traffico visivo.",
+      "disposizione": "2 palle in gioco contemporaneamente sul medesimo campo.",
+      "esecuzione": [
+        "1. Si giocano due palle contemporaneamente: Palla 1 tra A1 e A3 (diagonale sinistra); Palla 2 tra A2 e A4 (diagonale destra).",
+        "2. I giocatori devono gestire il loro scambio senza farsi distrarre dalla palla e dal movimento dei giocatori vicini."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1              A2          |\n|        │               ▲           |\n|        │ (Palla 1)     │ (Palla 2) |\n|        ▼               │           |\n|-----------------[R]----------------|\n|        A3              A4          |\n|  (A1 palleggia con A3 in Diagonale)|\n|  (A2 palleggia con A4 in Diagonale)|\n+------------------------------------+"
+    },
+    {
+      "id": 42,
+      "volume": 1,
+      "titolo": "Simulazione di Tie-Break Tattico a Punti Speciali",
+      "giocatori": 4,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "gioco_a_punti"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Tie-break con punteggi speciali.",
+      "obiettivo": "Valorizzazione dei colpi tattici vincenti.",
+      "disposizione": "2 vs 2 regolare su tutto il campo; M registra i punteggi.",
+      "esecuzione": [
+        "Punteggio Speciale Assegnato dal Maestro:",
+        "Punto normale = 1 Punto.",
+        "Punto chiuso con Smash Por Tres = 3 Punti.",
+        "Punto vinto a seguito di una Chiquita = 2 Punti.",
+        "Punto perso per Errore Diretto in Rete = -1 Punto.",
+        "Obiettivo: Raggiungere 15 punti."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1              A2          |\n|-----------------[R]----------------|\n|        A3              A4          |\n+------------------------------------+"
+    },
+    {
+      "id": 43,
+      "volume": 1,
+      "titolo": "Presidio Totale della Parete di Fondo (Glass Master)",
+      "giocatori": 4,
+      "tipi": [
+        "uscita_parete_alta",
+        "uscita_parete_bassa"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "salida",
+        "parete"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Rigiocare dopo il tocco di parete: altezza non specificata. Salida generica: inserita in uscita alta e bassa.",
+      "obiettivo": "Lettura avanzata dei rimbalzi a parete per 4 giocatori.",
+      "disposizione": "M nutre da cesto al centro della rete alternativamente sulle due coppie a fondo.",
+      "esecuzione": [
+        "1. M lancia colpi tagliati veloci che impattano sulle pareti di fondo della coppia A1+A2.",
+        "2. A1 e A2 devono rigiocare la palla solo dopo che questa ha toccato almeno una parete di fondo o laterale.",
+        "3. Dopo 6 colpi validi, M si gira ed effettua la stessa sequenza per A3+A4."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1              A2          |\n|        (A fondo - Riceve colpi spinti)|\n|-----------------[R]----------------|\n|                 M (Cesto centro)   |\n|-----------------[R]----------------|\n|        A3              A4          |\n|        (A fondo - In attesa)       |\n+------------------------------------+"
+    },
+    {
+      "id": 44,
+      "volume": 1,
+      "titolo": "Il \"Doble Cristál\" Tattico in Partita",
+      "giocatori": 4,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "gioco_a_punti",
+        "doppio_vetro"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Partita con regola del doppio vetro.",
+      "obiettivo": "Costringere gli avversari all'angolo di doppio vetro.",
+      "disposizione": "2 vs 2 in partita normale.",
+      "esecuzione": [
+        "1. Partita a punti.",
+        "2. La coppia che riesce a far impattare la palla sul doppio vetro (laterale + fondo) del campo avversario prima che la difesa possa toccarla ottiene automaticamente la vittoria del game in corso."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1              A2          |\n|-----------------[R]----------------|\n|        A3              A4          |\n|                                    |\n|  (Cercare sempre il doppio vetro   |\n|   negli angoli di fondo avversari) |\n+------------------------------------+"
+    },
+    {
+      "id": 45,
+      "volume": 1,
+      "titolo": "Difesa \"No Glass\" (Niente Pareti)",
+      "giocatori": 4,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "gioco_a_punti",
+        "controbalzo"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Partita senza possibilità di far toccare le pareti.",
+      "obiettivo": "Velocità di piedi, anticipo ed impatto avanzato.",
+      "disposizione": "Partita 2 vs 2 con vincolo strutturale.",
+      "esecuzione": [
+        "1. Si gioca un set normale tra A1+A2 ed A3+A4.",
+        "2. Regola speciale: Se la palla spinta da una squadra tocca il vetro di fondo o laterale prima che la squadra in difesa l'abbia impattata, il punto è automaticamente della squadra in attacco.",
+        "3. Obbliga i difensori ad avanzare e colpire la palla in controbalzo o al volo prima che raggiunga le pareti."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1              A2          |\n|-----------------[R]----------------|\n|        A3              A4          |\n|                                    |\n|  (SE LA PALLA TOCCA IL VETRO DI    |\n|   CHI DIFENDE -> PUNTO PERSO)      |\n+------------------------------------+"
+    },
+    {
+      "id": 46,
+      "volume": 1,
+      "titolo": "Palleggio continuo a 4 (The Infinite Rally)",
+      "giocatori": 4,
+      "tipi": [
+        "dritto",
+        "rovescio",
+        "volee_dritto",
+        "volee_rovescio"
+      ],
+      "livelli": [
+        "principiante",
+        "intermedio"
+      ],
+      "livello_originale": "Principiante / Intermedio",
+      "extra": [
+        "cooperativo",
+        "regolarita"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Palleggio cooperativo a 4. Lato non specificato nel testo: inserito in dritto e rovescio. Lato non specificato nel testo: inserito in volée di dritto e di rovescio.",
+      "obiettivo": "Regolarità, controllo della forza e spirito di gruppo.",
+      "disposizione": "A1 e A2 a fondo; A3 e A4 a rete.",
+      "esecuzione": [
+        "1. L'intero gruppo dei 4 allievi lavora in cooperazione (non in opposizione).",
+        "2. A1 palleggia con A3; A2 palleggia con A4.",
+        "3. Ad ogni 5 passaggi, A3 ed A4 scambiano la palla al volo in trasversale per cambiare il flusso di gioco senza far cadere la palla.",
+        "4. Obiettivo collettivo: 50 passaggi totali della squadra."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1              A2          |\n|        (A fondo)       (A fondo)   |\n|                 ▲       ▲          |\n|                 │       │          |\n|-----------------[R]----------------|\n|                 │       │          |\n|        A3       ▼       ▼ A4       |\n|        (A rete)        (A rete)    |\n+------------------------------------+"
+    },
+    {
+      "id": 47,
+      "volume": 1,
+      "titolo": "Attacco al Centro e Chiudi il Corridoio",
+      "giocatori": 4,
+      "tipi": [
+        "volee_dritto",
+        "volee_rovescio"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Volée verso il centro.",
+      "obiettivo": "Sfruttamento della zona d'ombra centrale tra i difensori.",
+      "disposizione": "A1+A2 a rete; A3+A4 a fondo.",
+      "esecuzione": [
+        "1. A1 ed A2 a rete hanno l'obbligo tattico di dirigere almeno l'80% delle loro volée nello spazio centrale tra A3 e A4.",
+        "2. A3 ed A4 devono dimostrare di saper stringere al centro in tempo utile senza scontrarsi o lasciare scoperto il corridoio."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1 (Rete)       A2 (Rete)   |\n|                 │                  |\n|                 │ (1) Volée spinta |\n|                 ▼     AL CENTRO    |\n|-----------------[R]----------------|\n|           (ZONA CENTRALE)          |\n|        A3 (Fondo)      A4 (Fondo)  |\n+------------------------------------+"
+    },
+    {
+      "id": 48,
+      "volume": 1,
+      "titolo": "Punti a Partenza Rapida con Seconda Palla del Maestro",
+      "giocatori": 4,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "gioco_a_punti"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Punti con seconda palla del maestro.",
+      "obiettivo": "Reattività cellulare e gestione del cambio d'inerzia imprevisto.",
+      "disposizione": "4 giocatori in campo in assetto di partita reale; M a cesto fuori dal campo.",
+      "esecuzione": [
+        "1. I 4 allievi disputano un punto regolare.",
+        "2. Non appena il punto si conclude (palla fuori o in rete), M spara immediatamente una seconda palla in campo in una zona casuale.",
+        "3. I giocatori devono riposizionarsi all'istante ed aggiudicarsi il \"punto bonus\"."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1              A2          |\n|-----------------[R]----------------|\n|        A3              A4          |\n|                                    |\n|                 M (Inserisce palla |\n|                    a sorpresa)     |\n+------------------------------------+"
+    },
+    {
+      "id": 49,
+      "volume": 1,
+      "titolo": "La Sfida della Bajada di Coppia",
+      "giocatori": 4,
+      "tipi": [
+        "uscita_parete_alta"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "bajada",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Bajada su lob alti verso la parete di fondo.",
+      "obiettivo": "Risoluzione delle palle alte da parete sotto la pressione di due difensori.",
+      "disposizione": "A1+A2 a fondo; A3+A4 a rete.",
+      "esecuzione": [
+        "1. M inserisce solo lob alti e profondi verso la parete di fondo di A1 e A2.",
+        "2. A1 ed A2 devono risolvere ogni palla rigorosamente con una *Bajada de Pared* (dritto o rovescio), senza usare il lob di risposta.",
+        "3. A3 ed A4 a rete lavorano sui blocchi di volée."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A3 (Rete)       A4 (Rete)   |\n|-----------------[R]----------------|\n|        A1 (Fondo)      A2 (Fondo)  |\n|        │               │           |\n|        ▼               ▼           |\n|  [VETRO FONDO]   [VETRO FONDO]     |\n|  (Entrambi eseguono Bajada alternata)|\n+------------------------------------+"
+    },
+    {
+      "id": 50,
+      "volume": 1,
+      "titolo": "Match Totale – Valutazione delle Skill del Maestro",
+      "giocatori": 4,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "principiante",
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Tutti i livelli",
+      "extra": [
+        "gioco_a_punti"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Match completo con valutazione.",
+      "obiettivo": "Verifica finale delle competenze tattiche e tecniche acquisite.",
+      "disposizione": "Partita reale a set completo (6 game) con supervisione e rilevamento dati da parte del Maestro.",
+      "esecuzione": [
+        "Scheda di Valutazione del Maestro (Indicatori analizzati):",
+        "1. Percentuale di Lob Profondi oltre la linea di servizio.",
+        "2. Numero di Errori Gratuiti a rete sotto pressione.",
+        "3. Sincronismo della Coppia nella salita e discesa dal nastro.",
+        "4. Comunicazione Vocale sulle palle centrali dubbie.",
+        "Restituzione Feedback: A fine match, M tiene un briefing di 10 minuti analizzando i dati rilevati e assegnando ad ogni allievo gli obiettivi per la lezione successiva."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1              A2          |\n|-----------------[R]----------------|\n|        A3              A4          |\n|                                    |\n|                 M (Con scheda      |\n|                    valutazione)    |\n+------------------------------------+\n\nIl manuale comprende la struttura completa per le tue lezioni sul campo."
+    },
+    {
+      "id": 51,
+      "volume": 2,
+      "titolo": "Uscita da Parete con Effetto Tagliato (Salida Cortada)",
+      "giocatori": 1,
+      "tipi": [
+        "uscita_parete_alta",
+        "uscita_parete_bassa"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "salida",
+        "backspin"
+      ],
+      "affidabilita_tipo": "incerto",
+      "da_verificare": true,
+      "nota_classificazione": "Salida con lob; impatto a cintura: considerata sia alta sia bassa, come la salida bassa del drill 2.",
+      "obiettivo": "Imprimere backspin alla palla in uscita dal vetro di fondo per mantenere il rimbalzo basso nel campo avversario.",
+      "disposizione": "M a rete con cesto; A1 a fondo campo.",
+      "esecuzione": [
+        "1. M lancia un lob medio-alto che supera A1 e rimbalza sul vetro di fondo.",
+        "2. A1 fa passare la palla, impatta all'altezza della cintura con piatto pala aperto dall'alto verso il basso.",
+        "3. La palla deve volare radente il nastro e cadere profonda senza alzarsi dopo il rimbalzo nel campo di M."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (Cesto)          |\n|-----------------[R]----------------|\n|                 │                  |\n|                 │ (1) Lob alto M   |\n|                 ▼                  |\n|              [ VETRO ]             |\n|                 │                  |\n|                 │ (2) Salida       |\n|                 │     Cortada A1   |\n|                 ▼                  |\n|                 A1 ───► M (ai piedi|\n+------------------------------------+"
+    },
+    {
+      "id": 52,
+      "volume": 2,
+      "titolo": "La Víbora – Rotazione Laterale d'Attacco",
+      "giocatori": 1,
+      "tipi": [
+        "palla_alta"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "vibora"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Colpo aereo con gomito alto.",
+      "obiettivo": "Tecnica dell'impatto laterale (sidespin) sulla palla a mezza altezza.",
+      "disposizione": "M a fondo campo; A1 a rete.",
+      "esecuzione": [
+        "1. M alza un lob teso ed imperfetto verso il lato del diritto di A1.",
+        "2. A1 arretra di profilo, porta la pala dietro la testa (gomito alto) ed impatta sul fianco esterno della palla avvolgendola.",
+        "3. La palla deve schizzare verso l'angolo di fondo toccando prima il vetro laterale."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|-----------------[R]----------------|\n|                 A1 (A Rete)        |\n|                 │                  |\n|                 │ - - -► (Arretra) |\n|                 ▼                  |\n|             (Punto Víbora)         |\n|                 │                  |\n|                 └───► (Sidespin    |\n|                       all'angolo)  |\n|                [V]                 |\n+------------------------------------+"
+    },
+    {
+      "id": 53,
+      "volume": 2,
+      "titolo": "Il Controbalzo da Fondo (Pronto Soccorso)",
+      "giocatori": 1,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "controbalzo"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Dritto e rovescio indicati nel testo.",
+      "obiettivo": "Gestione delle palle profonde prima che impattino il vetro di fondo.",
+      "disposizione": "M a rete; A1 sulla linea di servizio/fondo.",
+      "esecuzione": [
+        "1. M spinge colpi tesi che cadono negli ultimi 30 cm prima della linea di fondo.",
+        "2. A1 piega nettamente le ginocchia ed impatta la palla immediatamente dopo il rimbalzo a terra, prima che proceda verso la parete.",
+        "3. Si eseguono 3 serie da 12 controbalzi alternando dritto e rovescio."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|                 │                  |\n|  (1) Palla tesa │                  |\n|      e profonda ▼                  |\n|-----------------[R]----------------|\n|               (Rimbalzo a terra)   |\n|                 │                  |\n|                 ▼                  |\n|                 A1 (Impatta subito |\n|                     in controbalzo)|\n|                [V]                 |\n+------------------------------------+"
+    },
+    {
+      "id": 54,
+      "volume": 2,
+      "titolo": "Volée Smorzata (Dejadas a Rete)",
+      "giocatori": 1,
+      "tipi": [
+        "volee_dritto",
+        "volee_rovescio"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "smorzata"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Volée senza lato specificato.",
+      "obiettivo": "Sensibilità di mano per eseguire una smorzata vincente vicina alla rete.",
+      "disposizione": "M a fondo campo; A1 a rete (a 1 metro dal nastro).",
+      "esecuzione": [
+        "1. M gioca una palla medio-lenta a mezza altezza verso A1.",
+        "2. A1 finge una volée profonda ma ammortizza l'impatto aprendo la pala e ritirando leggermente il braccio al momento del contatto.",
+        "3. La palla deve compiere un arco minimo e fare 2 rimbalzi nei primi 2 metri di campo avversario."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (A Fondo)        |\n|                 │                  |\n|                 │ (1) Palla media  |\n|                 ▼                  |\n|-----------------[R]----------------|\n|                 A1 (Volée Smorzata)|\n|                 │                  |\n|                 ▼                  |\n|             (2) Palla muore subito |\n|                 dopo la rete       |\n+------------------------------------+"
+    },
+    {
+      "id": 55,
+      "volume": 2,
+      "titolo": "Recupero fuori dal Campo (Por Tres Recovery)",
+      "giocatori": 1,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "por_tres",
+        "recupero"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Nessun tipo tra i 7 previsti.",
+      "obiettivo": "Coordinazione motoria nello scatto esterno e rientro della palla dalla porta.",
+      "disposizione": "M a rete con cesto; A1 pronto vicino alla porta laterale.",
+      "esecuzione": [
+        "1. M esegue uno smash \"Por Tres\" che esce oltre la parete laterale da 3 metri.",
+        "2. A1 scatta attraverso la porta laterale, intercetta la palla prima del secondo complessivo rimbalzo esterno e la rimanda nel campo avversario attraverso la porta o sopra la rete."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|-----------------[R]----------------|\n|                 │ (1) Smash x3 M   |\n|                 ▼                  |\n|              [ PARETE LATERAL ]    |\n|                 │ (Palla esce)     |\n|                 ▼                  |\n|                 A1 - - -► (Scatta  |\n|                           fuori)   |\n|                 │ (2) Rientro      |\n|                 └──────► sopra la  |\n|                          rete      |\n+------------------------------------+"
+    },
+    {
+      "id": 56,
+      "volume": 2,
+      "titolo": "Riconquista della Rete su Palla Bassa",
+      "giocatori": 1,
+      "tipi": [
+        "volee_dritto",
+        "volee_rovescio"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "recupero"
+      ],
+      "affidabilita_tipo": "incerto",
+      "da_verificare": true,
+      "nota_classificazione": "Tocco morbido a rete, lato non specificato.",
+      "obiettivo": "Sviluppo della corsa in avanti con colpo morbido avanzato.",
+      "disposizione": "M a rete; A1 sulla linea di fondo.",
+      "esecuzione": [
+        "1. M gioca una palla corta appena oltre la rete.",
+        "2. A1 scatta a mezza altezza, piega le gambe, sfiora la rete con un tocco morbido ed impone la propria presenza a rete per chiudere sulla risposta di M."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|                 │                  |\n|  (1) Palla corta│                  |\n|      morbida M  ▼                  |\n|-----------------[R]----------------|\n|                 ▲                  |\n|                 │ (2) A1 corre,    |\n|                 │     gioca corto  |\n|                 │     e sale a rete|\n|                 A1 - - - - - - - - |\n+------------------------------------+"
+    },
+    {
+      "id": 57,
+      "volume": 2,
+      "titolo": "Difesa sul Lob Profondo con la Parete Laterale (Pared Lateral)",
+      "giocatori": 1,
+      "tipi": [
+        "uscita_parete_alta"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "parete_laterale",
+        "lob"
+      ],
+      "affidabilita_tipo": "incerto",
+      "da_verificare": true,
+      "nota_classificazione": "Parete laterale, non di fondo: da decidere.",
+      "obiettivo": "Sfruttare il vetro laterale per far girare la palla ed impostare la difesa.",
+      "disposizione": "M a metà campo; A1 a fondo campo disassato.",
+      "esecuzione": [
+        "1. M lancia palle d'attacco dirette al vetro laterale dell'allievo.",
+        "2. A1 ruota le spalle parallelamente alla parete laterale, attende l'uscita angolata della palla e risponde con un alto pallonetto di difesa in diagonale."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|-----------------[R]----------------|\n|                                    |\n|             (1) M invia al vetro   |\n|                 laterale           |\n|                 │                  |\n|                 ▼                  |\n|             [V.LATERAL]            |\n|                 │                  |\n|                 ▼ (Uscita angolata)|\n|                 A1 ───► (Contro-lob)|\n+------------------------------------+"
+    },
+    {
+      "id": 58,
+      "volume": 2,
+      "titolo": "Smash di Controllo al Corpo (Remate al Cuerpo)",
+      "giocatori": 1,
+      "tipi": [
+        "palla_alta"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "smash"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Smash tattico.",
+      "obiettivo": "Utilizzo dello smash tattico non definitivo per provocare l'errore dell'avversario.",
+      "disposizione": "M a fondo campo; A1 a rete.",
+      "esecuzione": [
+        "1. M alza un lob a mezza altezza.",
+        "2. A1 non cerca la forza pura per far uscire la palla, ma esegue uno smash piazzato a media velocità mirando al bacino o ai piedi di M a fondo campo."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (A Fondo)        |\n|                 ▲                  |\n|                 │ (2) Smash al     |\n|                 │     corpo        |\n|-----------------[R]----------------|\n|                 A1 (A Rete)        |\n|                 ▲                  |\n|                 │ (1) Lob medio M  |\n|                [V]                 |\n+------------------------------------+"
+    },
+    {
+      "id": 59,
+      "volume": 2,
+      "titolo": "Passante Lungolinea Stretto da Fondo",
+      "giocatori": 1,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "passante"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Lato non specificato. Lato non specificato nel testo: inserito in dritto e rovescio.",
+      "obiettivo": "Inserire un passante preciso nello spazio tra il giocatore a rete e la griglia.",
+      "disposizione": "M a rete spostato verso il centro; A1 a fondo nell'angolo.",
+      "esecuzione": [
+        "1. M copre la zona centrale a rete lasciando scoperto un corridoio di 80 cm lungo la parete laterale.",
+        "2. A1 da fondo esegue un colpo piatto e teso per far passare la palla nello spazio ristretto senza toccare la griglia."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (Centro a rete)  |\n|-----------------[R]----------------|\n|                                    |\n| (SPAZIO STRETTO)                   |\n|       │                            |\n|  (2)  │ Passante                   |\n|  Lungolinea A1                     |\n|       │                            |\n|       ▼                            |\n|       A1 (Nell'angolo di fondo)    |\n+------------------------------------+"
+    },
+    {
+      "id": 60,
+      "volume": 2,
+      "titolo": "La Chiquita Seguita da Volée di Pressione",
+      "giocatori": 1,
+      "tipi": [
+        "volee_dritto",
+        "volee_rovescio"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "chiquita"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Chiquita da fondo seguita da volée; lato non specificato.",
+      "obiettivo": "Concatenazione tattica: togliere il tempo e chiudere subito al nastro.",
+      "disposizione": "M a rete; A1 a fondo.",
+      "esecuzione": [
+        "1. A1 gioca una *chiquita* millimetrica ai piedi di M.",
+        "2. Subito dopo l'impatto, A1 corre a rete.",
+        "3. M, in affanno, alza una palla debole che A1 schiaccia a rete con una volée d'attacco."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|                 ▲                  |\n|  (2) M alza     │ (1) Chiquita     |\n|      in affanno │     sui piedi    |\n|-----------------[R]----------------|\n|                 A1 - - -► (Scatto) |\n|                 │                  |\n|                 ▼ (3) Volée        |\n|                       definitiva   |\n+------------------------------------+"
+    },
+    {
+      "id": 61,
+      "volume": 2,
+      "titolo": "Gestione della Palla \"Morta\" in Angolo",
+      "giocatori": 1,
+      "tipi": [
+        "uscita_parete_bassa"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "angolo",
+        "cucchiaio"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Palla morta incollata al vetro.",
+      "obiettivo": "Risolvere situazioni in cui la palla perde velocità e rimane incollata al vetro.",
+      "disposizione": "M a mezza altezza; A1 nell'angolo di fondo.",
+      "esecuzione": [
+        "1. M invia una palla con forte effetto backspin che muore nell'angolo tra i due vetri.",
+        "2. A1 infila la pala verticalmente dal basso ed esegue un \"cucchiaio\" (pallonetto verticale salvagente) per rimandare la palla altissima."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|-----------------[R]----------------|\n|                                    |\n|                 (1) M taglia molto |\n|                     la palla in    |\n|                     angolo         |\n|                     │              |\n|                     ▼              |\n|                  [V.FONDO + LAT]   |\n|                     │              |\n|                     ▼              |\n|                 A1 (Cucchiaio dal  |\n|                     basso verso l'alto)\n+------------------------------------+"
+    },
+    {
+      "id": 62,
+      "volume": 2,
+      "titolo": "Giro Completo sul Campo (Circuit 360°)",
+      "giocatori": 1,
+      "tipi": [
+        "volee_dritto",
+        "palla_alta",
+        "uscita_parete_alta",
+        "uscita_parete_bassa"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "circuito"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Circuito: volée di diritto, bandeja, salida di rovescio, smorzata.",
+      "obiettivo": "Resistenza specifica e reattività su tutti i colpi del padel in un singolo turno.",
+      "disposizione": "M al centro; A1 si muove su tutte le posizioni.",
+      "esecuzione": [
+        "M propone senza interruzione ad A1:",
+        "1. Volée di diritto.",
+        "2. Bandeja su lob.",
+        "3. Salida de pared di rovescio.",
+        "4. Scatto per smorzata.",
+        "5. Ripetere il ciclo per 3 minuti consecutivi."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|-----------------[R]----------------|\n| (1) Volée ──► A1 (A rete)          |\n| (2) Lob   ──► A1 (Bandeja)         |\n| (3) Parete──► A1 (Salida)          |\n| (4) Corta ──► A1 (Chiquita)        |\n+------------------------------------+"
+    },
+    {
+      "id": 63,
+      "volume": 2,
+      "titolo": "Il Cambio di Diagonale Inaspettato",
+      "giocatori": 2,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "passante"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Palleggio da fondo, lato non specificato. Lato non specificato nel testo: inserito in dritto e rovescio.",
+      "obiettivo": "Sorprendere la coppia avversaria variando la direzione del palleggio da fondo.",
+      "disposizione": "M a rete (lato sinistro); A1 e A2 a fondo campo.",
+      "esecuzione": [
+        "1. A1 palleggia per 3 colpi in diagonale verso M.",
+        "2. Al 4° colpo, A1 varia improvvisamente tirando un passante parallelo sull'area vuota.",
+        "3. A2 deve scattare in avanti per coprire l'eventuale risposta al volo di M."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        M (Rete SX)     (Area Vuota)|\n|-----------------[R]----------------|\n|        A1 (Fondo SX)   A2 (Fondo DX)|\n|        │                            |\n|        │ (1) Palleggio diagonale    |\n|        │                            |\n|        └──────────────► (2) Cambio  |\n|                             repentino|\n|                             su Area |\n|                             Vuota A2|\n+------------------------------------+"
+    },
+    {
+      "id": 64,
+      "volume": 2,
+      "titolo": "Attacco Simultaneo sul \"Buco\" Centrale (El Embudo)",
+      "giocatori": 2,
+      "tipi": [
+        "volee_dritto",
+        "volee_rovescio"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Volée della coppia a rete, lato non specificato.",
+      "obiettivo": "Massimizzare la pressione della coppia convergenza verso il centro.",
+      "disposizione": "M a fondo al centro; A1 e A2 a rete.",
+      "esecuzione": [
+        "1. M gioca palle centrali veloci da fondo.",
+        "2. A1 e A2 stringono contemporaneamente verso il centro chiudendo gli angoli.",
+        "3. Chi impatta la palla esegue una volée profonda; l'altro garantisce la copertura della griglia laterale scoperta."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (Fondo Centro)   |\n|                 │                  |\n|                 ▼                  |\n|-----------------[R]----------------|\n|        A1 ───►  │  ◄─── A2         |\n|   (Volée SX)    │    (Volée DX)    |\n|                 ▼                  |\n|         (Impatto convergente)      |\n+------------------------------------+"
+    },
+    {
+      "id": 65,
+      "volume": 2,
+      "titolo": "La Difesa \"A Finestra\" su Attacco Violento",
+      "giocatori": 2,
+      "tipi": [
+        "uscita_parete_alta"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "difesa",
+        "lob"
+      ],
+      "affidabilita_tipo": "incerto",
+      "da_verificare": true,
+      "nota_classificazione": "Lasciar rimbalzare sul vetro di fondo dopo smash.",
+      "obiettivo": "Gestire la difesa di coppia quando gli avversari tirano smash violenti dal centro.",
+      "disposizione": "M a rete al centro; A1 e A2 a fondo campo sugli angoli.",
+      "esecuzione": [
+        "1. M esegue uno smash potente verso la parete di fondo centrale.",
+        "2. A1 e A2 si allargano \"a finestra\" verso i rispettivi vetri laterali, lasciano che la palla impatti il vetro di fondo e rientri verso il centro, per poi raccoglierla ed eseguire un lob doppio."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (Smash dal centro)|\n|                 │                  |\n|        ┌────────┴────────┐         |\n|        ▼                 ▼         |\n|-----------------[R]----------------|\n|  A1 (Protegge V.LAT)  A2 (Protegge V.LAT)|\n|        │                 │         |\n|        └────────┬────────┘         |\n|                 ▼                  |\n|   (Lasciano rimbalzare sul vetro   |\n|    e ripartono in contropiede)     |\n+------------------------------------+"
+    },
+    {
+      "id": 66,
+      "volume": 2,
+      "titolo": "\"Never Give Up\" – 30 Secondi di Difesa Totale",
+      "giocatori": 2,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "principiante",
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Tutti i livelli",
+      "extra": [
+        "difesa",
+        "gioco_a_punti"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Gioco di resistenza, nessun tipo specifico.",
+      "obiettivo": "Costruire la resistenza psicologica e la tenuta difensiva della coppia.",
+      "disposizione": "M a rete con cesto straripante; A1 e A2 a fondo.",
+      "esecuzione": [
+        "1. M spara palle in sequenza immediata (una palla ogni 2 secondi) variando volée, bandeje e smorzate.",
+        "2. A1 e A2 devono rigiocare qualsiasi palla all'interno del campo avversario.",
+        "3. Se la coppia sopravvive ai 30 secondi senza far cadere la palla nel proprio campo, ottiene il punto."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (A Rete - Cesto) |\n|                 │                  |\n|                 ▼ (Palle a raffica)|\n|-----------------[R]----------------|\n|        A1              A2          |\n|  (Difendono continuamente senza    |\n|   interruzione per 30 secondi)     |\n+------------------------------------+"
+    },
+    {
+      "id": 67,
+      "volume": 2,
+      "titolo": "La \"Bandeja Incrociata + Volée Parallela\"",
+      "giocatori": 2,
+      "tipi": [
+        "palla_alta",
+        "volee_dritto"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "bandeja",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Bandeja poi volée di diritto.",
+      "obiettivo": "Combinazione d'attacco in due tempi della coppia a rete.",
+      "disposizione": "M a fondo campo; A1 (Rete SX) e A2 (Rete DX).",
+      "esecuzione": [
+        "1. M alza un lob su A1 (sinistra).",
+        "2. A1 gioca una *Bandeja* profonda ed incrociata nell'angolo opposto di M.",
+        "3. M risponde in affanno lungolinea su A2 (destra), che chiude il punto con una volée di diritto aggressiva."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|                 ▲                  |\n|  (2) Volée Par. │ (1) Bandeja      |\n|      A2         │     Diagonale A1 |\n|-----------------[R]----------------|\n|        A1              A2          |\n+------------------------------------+"
+    },
+    {
+      "id": 68,
+      "volume": 2,
+      "titolo": "Rotazione \"Intercettazione a Rete\"",
+      "giocatori": 2,
+      "tipi": [
+        "volee_dritto",
+        "volee_rovescio"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Volée di intercettazione, lato non specificato.",
+      "obiettivo": "Insegnare al giocatore della rete ad \"invasionare\" la diagonale del compagno.",
+      "disposizione": "M a fondo campo; A1 e A2 a rete.",
+      "esecuzione": [
+        "1. M palleggia da fondo con A1.",
+        "2. A2 (a rete dal lato opposto) legge la traiettoria della palla di M, fa due passi laterali veloci e \"ruba\" la palla interceptandola con una volée prima che arrivi ad A1."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (Fondo SX)       |\n|                 │                  |\n|                 │ (1) Palleggio su |\n|                 ▼     A1           |\n|-----------------[R]----------------|\n|        A1              A2          |\n|     (Palleggia)        │ (2) A2 taglia\n|                        └─►   davanti ad\n|                              A1 e chiude\n+------------------------------------+"
+    },
+    {
+      "id": 69,
+      "volume": 2,
+      "titolo": "Gestione del Pallonetto \"Lavorato\" da Fondo",
+      "giocatori": 2,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "lob"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Lob da fondo carico di topspin, lato non specificato. Lato non specificato nel testo: inserito in dritto e rovescio.",
+      "obiettivo": "Alzare pallonetti alti e carichi di topspin per spingere gli avversari a parete.",
+      "disposizione": "M a rete; A1 e A2 a fondo.",
+      "esecuzione": [
+        "1. A1 ed A2 ricevono volée profonde da M.",
+        "2. L'obiettivo della coppia è caricare la palla dal basso verso l'alto ed imprimere una parabola così alta da costringere M a retrocedere fino a toccare il vetro posteriore."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (A rete)         |\n|                 ▲                  |\n|                 │ (2) Lob che      |\n|                 │     rimbalza alto|\n|                 │     sopra M      |\n|-----------------[R]----------------|\n|        A1 ──────┴────── A2         |\n|   (Eseguono lob spinti dal basso)  |\n+------------------------------------+"
+    },
+    {
+      "id": 70,
+      "volume": 2,
+      "titolo": "Copertura del Pallonetto \"Nelle Spalle\"",
+      "giocatori": 2,
+      "tipi": [
+        "uscita_parete_alta"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "tattica_coppia",
+        "lob"
+      ],
+      "affidabilita_tipo": "incerto",
+      "da_verificare": true,
+      "nota_classificazione": "Salida dopo lob che supera il compagno.",
+      "obiettivo": "Invertire i ruoli della coppia quando un lob scavalca uno dei due giocatori.",
+      "disposizione": "M a fondo; A1 e A2 a rete.",
+      "esecuzione": [
+        "1. M alza un lob perfetto sopra la testa di A1 (sinistra).",
+        "2. A1 chiama \"TUA!\" e si sposta a destra.",
+        "3. A2 ruota correndo in diagonale dietro le spalle di A1, recupera la palla in uscita dal vetro e gioca una Salida. A1 copre la nuova posizione di A2."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|-----------------[R]----------------|\n|        A1 (Scavalcato) A2          |\n|        │               │           |\n|        ▼               │ (1) A2 corre\n|     (VETRO)            │     in diagonale\n|                        ▼     dietro ad A1\n|                        A2 (Colpisce)\n+------------------------------------+"
+    },
+    {
+      "id": 71,
+      "volume": 2,
+      "titolo": "Il Palleggio \"Chiquita & Smash\" in Diagonale",
+      "giocatori": 2,
+      "tipi": [
+        "palla_alta"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "chiquita",
+        "smash",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Smash finale; la chiquita da fondo non ha lato.",
+      "obiettivo": "Esercizio combinato di precisione e potenza per la coppia.",
+      "disposizione": "M a fondo campo a destra; A1 (Rete SX) e A2 (Fondo SX).",
+      "esecuzione": [
+        "1. A2 da fondo gioca una *chiquita* stretta verso M.",
+        "2. M è costretto a rialzare la palla a mezza altezza.",
+        "3. A1 (a rete) legge la traiettoria debole ed entra in smash per chiudere il punto."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (Fondo DX)       |\n|                 │ ▲                |\n|  (1) M spinge   │ │ (2) Chiquita   |\n|      basso      ▼ │     A2         |\n|-----------------[R]│                |\n|        A1 ────────┘                |\n|     (Intercetta l'alzata di M      |\n|      ed esegue Smash vincente)     |\n+------------------------------------+"
+    },
+    {
+      "id": 72,
+      "volume": 2,
+      "titolo": "Difesa della Griglia in Coppia (Net Protection)",
+      "giocatori": 2,
+      "tipi": [
+        "uscita_parete_bassa"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "griglia",
+        "difesa"
+      ],
+      "affidabilita_tipo": "incerto",
+      "da_verificare": true,
+      "nota_classificazione": "Palla bassa dalla griglia.",
+      "obiettivo": "Leggere la palla che impatta la griglia metallica con il supporto del compagno.",
+      "disposizione": "M a rete; A1 e A2 a fondo campo vicini alle griglie.",
+      "esecuzione": [
+        "1. M spinge volée tagliate verso le griglie laterali di destra e sinistra.",
+        "2. Se la palla impatta la griglia di A1, A1 deve piegarsi per raccoglierla, mentre A2 stringe al centro per coprire l'eventuale rimbalzo anomalo ed aiutare il compagno."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (A Rete)         |\n|                 │                  |\n|                 ▼ (Spinge colpi    |\n|                    sulle griglie)  |\n|-----------------[R]----------------|\n|   [G] A1              A2 [G]       |\n|       (Chi è vicino alla griglia   |\n|        assorbe il rimbalzo strano; |\n|        il compagno copre il centro)|\n+------------------------------------+"
+    },
+    {
+      "id": 73,
+      "volume": 2,
+      "titolo": "La Salida de Pared Invertita (Cross Pared)",
+      "giocatori": 2,
+      "tipi": [
+        "uscita_parete_alta",
+        "uscita_parete_bassa"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "salida"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Salida incrociata, altezza non specificata. Salida generica: inserita in uscita alta e bassa.",
+      "obiettivo": "Variazione dell'angolo d'uscita da parete per disorientare la difesa.",
+      "disposizione": "M a rete al centro; A1 e A2 a fondo.",
+      "esecuzione": [
+        "1. M spinge una palla profonda sul vetro di fondo di A1.",
+        "2. A1 finge di giocare una salida morbida lungolinea, ma ruota l'asse del corpo all'ultimo secondo scaricando una *salida* incrociata radente la rete verso l'angolo opposto."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (A rete)         |\n|-----------------[R]----------------|\n|        A1              A2          |\n|     (Vetro)                        |\n|        │                           |\n|        └──► (Invece del classico   |\n|              lungolinea, spara una |\n|              Salida rasoterra      |\n|              incrociata a 80km/h)  |\n+------------------------------------+"
+    },
+    {
+      "id": 74,
+      "volume": 2,
+      "titolo": "Sfida di Costanza \"Zero Errori Gratuiti\"",
+      "giocatori": 2,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "principiante",
+        "intermedio"
+      ],
+      "livello_originale": "Principiante / Intermedio",
+      "extra": [
+        "gioco_a_punti"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Partita a punti, nessun tipo specifico.",
+      "obiettivo": "Penalizzare l'errore non forzato per abituare la coppia al gioco di costruzione.",
+      "disposizione": "M a rete; A1 e A2 a fondo. Partita a punti speciale.",
+      "esecuzione": [
+        "1. Si gioca un game ai 15 punti.",
+        "2. Se M fa punto con un vincente, ottiene 1 punto.",
+        "3. Se A1 o A2 commettono un errore non forzato (palla in rete o fuori senza pressione), M riceve 3 punti d'ufficio.",
+        "4. Costringe la coppia a giocare palle ad altissima percentuale di sicurezza."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M                  |\n|-----------------[R]----------------|\n|        A1              A2          |\n|  (Ogni errore non forzato della    |\n|   coppia regala 3 punti a M)       |\n+------------------------------------+"
+    },
+    {
+      "id": 75,
+      "volume": 2,
+      "titolo": "Il \"Serve & Volley\" Sincronizzato",
+      "giocatori": 2,
+      "tipi": [
+        "volee_dritto",
+        "volee_rovescio",
+        "palla_alta"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "servizio",
+        "bandeja",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Serve & volley con eventuale bandeja.",
+      "obiettivo": "Coordinazione tra chi serve e chi occupa già la rete.",
+      "disposizione": "A1 (al servizio), A2 (già a rete); M (alla risposta da solo da fondo).",
+      "esecuzione": [
+        "1. A1 effettua il servizio verso M.",
+        "2. A1 scatta a rete a massima velocità.",
+        "3. A2 (che è già a rete) si adegua alla risposta di M: se M risponde incrociato, A2 intercetta al volo; se M fa un lob, A2 arretra in bandeja lasciando che A1 prenda il centro."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 M (Risposta)       |\n|-----------------[R]----------------|\n|        A2 (Fisso a rete)           |\n|        ▲                           |\n|        │ (A2 muove lateralmente    |\n|        │  per coprire la risposta) |\n|        │                           |\n|        A1 - - -► (Serve e corre    |\n|                   ad affiancare A2)|\n+------------------------------------+"
+    },
+    {
+      "id": 76,
+      "volume": 2,
+      "titolo": "Il Triangolo Diabolico (Palleggio d'Attacco a Tre)",
+      "giocatori": 3,
+      "tipi": [
+        "dritto",
+        "rovescio",
+        "volee_dritto",
+        "volee_rovescio"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "passante"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Scambi tra passanti e volée, lato non specificato. Lato non specificato nel testo: inserito in dritto e rovescio. Lato non specificato nel testo: inserito in volée di dritto e di rovescio.",
+      "obiettivo": "Gestire la velocità di scambio in uno spazio ridotto con cambio di fronte.",
+      "disposizione": "A1 (A rete da solo); A2 e A3 (A fondo); M coordina dal centro.",
+      "esecuzione": [
+        "1. A2 gioca un passante su A1 a rete.",
+        "2. A1 gioca una volée lungolinea profonda su A3.",
+        "3. A3 gioca un passante incrociato su A1.",
+        "4. A1 gioca una volée incrociata su A2.",
+        "5. Il ritmo aumenta ad ogni giro. Rotazione dei ruoli ogni 2 minuti."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A2 (Fondo SX)   A3 (Fondo DX)|\n|        │               ▲           |\n|        │ (1) Passante  │ (3) Volée |\n|        ▼               │     incroc.|\n|-----------------[R]----------------|\n|                 A1 (A Rete)        |\n|                 │                  |\n|                 └──────────► (2) Volée\n|                              lungolinea\n+------------------------------------+"
+    },
+    {
+      "id": 77,
+      "volume": 2,
+      "titolo": "\"Attacco alla Torre\" (Smash continuo e Difesa a Due)",
+      "giocatori": 3,
+      "tipi": [
+        "palla_alta"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "smash",
+        "bandeja"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Smash e bandeje continui.",
+      "obiettivo": "Testare la resistenza del giocatore a rete contro due difensori eccellenti.",
+      "disposizione": "A1 fisso a rete (la Torre); A2 e A3 a fondo campo; M a cesto accanto ad A2 e A3.",
+      "esecuzione": [
+        "1. M continua a sparare pallonetti alti al centro per A1.",
+        "2. A1 deve eseguire smashes e bandeje vincenti alternando l'angolo verso A2 e verso A3.",
+        "3. A2 e A3 a fondo devono recuperare tutti i colpi di A1 e rimandarli in campo.",
+        "4. A1 guadagna 1 punto per ogni vincente; A2+A3 guadagnano 1 punto per ogni errore di A1."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A2 (Difesa)     A3 (Difesa) |\n|-----------------[R]----------------|\n|                 A1 (La Torre)      |\n|                 ▲                  |\n|                 │ (Lanci continui  |\n|                 │  di Lob da M)    |\n|                 M (Cesto)          |\n+------------------------------------+"
+    },
+    {
+      "id": 78,
+      "volume": 2,
+      "titolo": "Rotazione Veloce \"Chi Sbaglia Paga\" (Survival Padel)",
+      "giocatori": 3,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "principiante",
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Tutti i livelli",
+      "extra": [
+        "gioco_a_punti"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Rotazione con eliminazione, nessun tipo specifico.",
+      "obiettivo": "Mantenere alta la concentrazione ed eliminare la superficialità nei colpi facili.",
+      "disposizione": "A1 e A2 (In campo a rete/fondo); A3 in attesa a bordo campo con M.",
+      "esecuzione": [
+        "1. A1, A2 ed M disputano uno scambio libero.",
+        "2. Il primo tra A1 ed A2 che commette un errore esce immediatamente dal campo.",
+        "3. A3 scatta all'interno entro 3 secondi per prendere il suo posto e servire la palla successiva."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1 (Campo)      A2 (Campo)  |\n|-----------------[R]----------------|\n|        M (Palleggia)               |\n|                                    |\n|        A3 (In attesa a bordo campo)|\n+------------------------------------+"
+    },
+    {
+      "id": 79,
+      "volume": 2,
+      "titolo": "Palleggio 2 vs 1 con Obbligo di Chiquita",
+      "giocatori": 3,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "chiquita"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Chiquita obbligata da fondo. Lato non specificato nel testo: inserito in dritto e rovescio.",
+      "obiettivo": "Obbligare la coppia a fondo a giocare solo corto per superare il giocatore a rete.",
+      "disposizione": "A1 (A rete da solo); A2 e A3 (A fondo campo).",
+      "esecuzione": [
+        "1. A2 e A3 giocano in coppia a fondo contro A1 a rete.",
+        "2. A2 e A3 hanno il divieto assoluto di alzare pallonetti: possono usare solo *chiquitas* radenti per costringere A1 a piegarsi ed alzare la palla."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 A1 (A rete)        |\n|-----------------[R]----------------|\n|        A2              A3          |\n|  (Possono giocare SOLTANTO chiquitas|\n|   sui piedi di A1; vietato il lob) |\n+------------------------------------+"
+    },
+    {
+      "id": 80,
+      "volume": 2,
+      "titolo": "Il \"Sotto-Pressione\" con Palla Corta del Maestro",
+      "giocatori": 3,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "passante",
+        "smorzata"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Passante dopo smorzata del maestro. Lato non specificato nel testo: inserito in dritto e rovescio.",
+      "obiettivo": "Reattività e velocità nello scatto in avanti per l'allievo isolato.",
+      "disposizione": "A1 a fondo da solo; A2 e A3 a rete in coppia; M a bordo campo.",
+      "esecuzione": [
+        "1. A1 palleggia da fondo contro A2 ed A3 a rete.",
+        "2. Improvvisamente M inserisce una palla corta smorzata vicino alla rete nel campo di A1.",
+        "3. A1 deve correre a rotta di collo, raccogliere la palla ad un centimetro da terra ed inventare un passante contro la coppia A2+A3 pronta a stoppare a rete."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A2 (Rete)       A3 (Rete)   |\n|-----------------[R]----------------|\n|                 │                  |\n|  (1) M lancia   │                  |\n|      smorzata   ▼                  |\n|      inaspettata A1 (Corre e deve  |\n|                      passare la    |\n|                      coppia a rete)|\n+------------------------------------+"
+    },
+    {
+      "id": 81,
+      "volume": 2,
+      "titolo": "Rotazione a Specchio (Mirror Movement)",
+      "giocatori": 3,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "posizionamento"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Esercizio di movimento, nessun tipo specifico.",
+      "obiettivo": "Affinare la percezione della posizione dei compagni sul campo.",
+      "disposizione": "A1 a rete; A2 e A3 a fondo; M controlla.",
+      "esecuzione": [
+        "1. A1 gioca spingendo la palla alternativamente nell'angolo sinistro e nell'angolo destro di fondo.",
+        "2. A2 e A3 devono traslare in parallelo mantenedo sempre la stessa distanza (3 metri) tra loro. Se uno va a recuperare la palla nel vetro, l'altro deve trovarsi sulla linea centrale."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                 A1 (Rete)          |\n|-----------------[R]----------------|\n|        A2 ◄─── (Corda) ───► A3     |\n|  (A2 e A3 si muovono perfettamente |\n|   in parallelo seguendo la palla)  |\n+------------------------------------+"
+    },
+    {
+      "id": 82,
+      "volume": 2,
+      "titolo": "Simulazione di Bajada sotto Copertura (2 vs 1)",
+      "giocatori": 3,
+      "tipi": [
+        "uscita_parete_alta"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "bajada"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Bajada de pared.",
+      "obiettivo": "Allenare il singolo allievo a sparare la Bajada con due avversari che coprono la rete.",
+      "disposizione": "A1 a fondo (singolo); A2 e A3 a rete (coppia mista); M da cesto.",
+      "esecuzione": [
+        "1. M lancia un lob che rimbomba sul vetro di fondo di A1.",
+        "2. A2 e A3 occupano aggressivamente la rete coprendo gli angoli.",
+        "3. A1 deve eseguire una *Bajada de pared* potente cercando l'unico varco libero (il corpo di uno dei due o l'incrocio dei vetri)."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A2 (Copre SX)   A3 (Copre DX)|\n|-----------------[R]----------------|\n|                 ▲                  |\n|                 │ (2) Bajada       |\n|                 │     Violenta     |\n|                 A1 (In uscita dal  |\n|                     vetro)         |\n+------------------------------------+"
+    },
+    {
+      "id": 83,
+      "volume": 2,
+      "titolo": "Diagonale Estrema con Sponda (Single-Diagonal Mastery)",
+      "giocatori": 3,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "diagonale"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Scambio in diagonale, lato non specificato. Lato non specificato nel testo: inserito in dritto e rovescio.",
+      "obiettivo": "Padrronanza assoluta degli effetti angolati nella diagonale singola.",
+      "disposizione": "A1 e A2 giocano sulla diagonale; A3 e M gestiscono il recupero palla.",
+      "esecuzione": [
+        "1. A1 (a rete) e A2 (a fondo) giocano un duello serrato usando solo la diagonale destra.",
+        "2. Ogni colpo deve toccare il perimetro compreso tra la griglia e la linea centrale.",
+        "3. A3 osserva la tecnica di A2 e subentra ogni 10 colpi."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|                        A2 (Fondo DX)|\n|                        │ ▲          |\n|  (Scambio vincolato    │ │ (Diagonale|\n|   nella sola metà      ▼ │  stretta)|\n|   campo destra)        │ │          |\n|-----------------[R]────┴─┴────────--|\n|                        A1 (Rete DX) |\n+------------------------------------+"
+    },
+    {
+      "id": 84,
+      "volume": 2,
+      "titolo": "Il Salvagente – Difesa disperata da Vetro Laterale",
+      "giocatori": 3,
+      "tipi": [
+        "uscita_parete_alta"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "parete_laterale",
+        "lob",
+        "difesa"
+      ],
+      "affidabilita_tipo": "incerto",
+      "da_verificare": true,
+      "nota_classificazione": "Lob di salvataggio dalla parete laterale.",
+      "obiettivo": "Reagire quando la palla impatta il vetro laterale e scivola via.",
+      "disposizione": "A1 e A2 a rete; A3 a fondo campo da solo; M nutre da cesto.",
+      "esecuzione": [
+        "1. M spara palle veloci contro il vetro laterale di A3.",
+        "2. A3 deve effettuare un movimento di rotazione rapido delle anche e sparare un lob altissimo (\"Salvagente\") per dare a se stesso il tempo di riposizionarsi prima che A1 e A2 chiudano la volée."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1 (Rete)       A2 (Rete)   |\n|-----------------[R]----------------|\n|                                    |\n|             (1) M spara al vetro   |\n|                 laterale           |\n|                 │                  |\n|                 ▼                  |\n|             [V.LATERAL]            |\n|                 │                  |\n|                 ▼                  |\n|                 A3 (Salvataggio    |\n|                     con Lob alto)  |\n+------------------------------------+"
+    },
+    {
+      "id": 85,
+      "volume": 2,
+      "titolo": "Punti a Servizio Singolo e Risposta Doppia",
+      "giocatori": 3,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "servizio",
+        "risposta"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Servizio e risposta, nessun tipo tra i 7.",
+      "obiettivo": "Testare la tenuta del battitore da solo contro una risposta ben organizzata.",
+      "disposizione": "A1 (Serve ed è solo in campo); A2 e A3 (Coppia alla risposta); M a supporto di A1.",
+      "esecuzione": [
+        "1. A1 effettua il servizio da solo.",
+        "2. A2 ed A3 rispondono in coppia cercando di attaccare A1.",
+        "3. M interviene in campo a fianco di A1 solo ed esclusivamente se A2 ed A3 alzano un pallonetto."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A2              A3          |\n|        (Risponditori in Coppia)    |\n|-----------------[R]----------------|\n|        A1 (Battere da solo)        |\n|        (M aiuta solo nei pallonetti)|\n+------------------------------------+"
+    },
+    {
+      "id": 86,
+      "volume": 2,
+      "titolo": "\"La Gabbia\" – Gioco Vincolato ai Primi 3 Metri",
+      "giocatori": 3,
+      "tipi": [
+        "volee_dritto",
+        "volee_rovescio",
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "gioco_a_punti"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Scambio di volée a ridosso della rete. Lato non specificato nel testo: inserito in volée di dritto e di rovescio.",
+      "obiettivo": "Reattività estreme e riflessi felini a ridosso del nastro.",
+      "disposizione": "A1, A2 ed A3 tutti a rete entro 2 metri dal nastro; M alimenta da fuori.",
+      "esecuzione": [
+        "1. M lancia la palla al centro della rete.",
+        "2. A1, A2 e A3 si affrontano in uno scambio a velocissima intensità mantenendo le pale alte davanti agli occhi.",
+        "3. È vietato fare passi indietro: chi fa un passo indietro perde il punto."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1              A2          |\n|-----------------[R]----------------|\n|                 A3                 |\n|  (TUTTI A RISTRETTO CONTATTO CON   |\n|   IL NASTRO DELLA RETE)            |\n+------------------------------------+"
+    },
+    {
+      "id": 87,
+      "volume": 2,
+      "titolo": "Punti con \"Jolly Volante\"",
+      "giocatori": 3,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "principiante",
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Tutti i livelli",
+      "extra": [
+        "gioco_a_punti"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Punti con rotazione di compagno.",
+      "obiettivo": "Dinamismo e adattamento continuo al cambio di compagno.",
+      "disposizione": "A1 e A2 fissi; A3 ruota facendosi coppia a turno con A1 o A2; M fa il conteggio.",
+      "esecuzione": [
+        "1. A3 gioca il primo punto in coppia con A1 contro A2 ed M.",
+        "2. Al punto successivo, A3 scavalka la rete e fa coppia con A2 contro A1 ed M.",
+        "3. Si valutano i punti individuali accumulati da A3 nelle due diverse configurazioni."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1              A3 (Jolly)  |\n|-----------------[R]----------------|\n|        A2              M           |\n+------------------------------------+"
+    },
+    {
+      "id": 88,
+      "volume": 2,
+      "titolo": "La \"Bandeja Sulla Griglia\" e Attacco del Rispeditore",
+      "giocatori": 4,
+      "tipi": [
+        "palla_alta"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "bandeja",
+        "griglia",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Bandeja sulla griglia.",
+      "obiettivo": "Sfruttare la griglia metallica avversaria per forzare l'uscita difensiva difettosa.",
+      "disposizione": "Coppia Alfa (A1+A2 a rete); Coppia Beta (A3+A4 a fondo).",
+      "esecuzione": [
+        "1. A1 esegue una *Bandeja* profonda mirando esattamente alla griglia metallica vicino ad A3.",
+        "2. A3 deve attendere l'impatto sulla griglia e tentare di salvaguardare la palla.",
+        "3. A2 (compagno di A1) stringe a rete verso il lato di A3 per chiudere la volée sul rimbalzo difettoso."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1 (Rete)       A2 (Rete)   |\n|        │                           |\n|        │ (1) Bandeja tagliata      |\n|        ▼                           |\n|-----------------[R]----------------|\n|   [G] A3 (Fondo)      A4 (Fondo)   |\n|       (A3 deve gestire il rimbalzo |\n|        imprevedibile sulla griglia)|\n+------------------------------------+"
+    },
+    {
+      "id": 89,
+      "volume": 2,
+      "titolo": "Il \"Globo Parallelo\" (Lob Lungolinea Tattico)",
+      "giocatori": 4,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "lob",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Lob lungolinea da fondo. Lato non specificato nel testo: inserito in dritto e rovescio.",
+      "obiettivo": "Ribaltare il fronte d'attacco usando il pallonetto lungo la parete laterale.",
+      "disposizione": "A1+A2 a rete; A3+A4 a fondo.",
+      "esecuzione": [
+        "1. A3 da fondo esegue un lob perfetto lungo la parete laterale sinistra sopra la testa di A1.",
+        "2. Trattandosi di un lob parallelo stretto, A1 ha grande difficoltà a giocare la bandeja ed è costretto a cedere la rete.",
+        "3. A3 e A4 salgono a rete occupando la posizione dominante."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1 (Rete SX)    A2 (Rete DX)|\n|        ▲                           |\n|        │ (2) A1 costretto a        |\n|        │     retrocedere di spalla |\n|-----------------[R]----------------|\n|        A3 (Fondo SX)   A4 (Fondo DX)|\n|        │                           |\n|        └──► (1) Lob Parallelo      |\n|             lungo il vetro SX      |\n+------------------------------------+"
+    },
+    {
+      "id": 90,
+      "volume": 2,
+      "titolo": "La Risposta \"Chiquita al Centro\" e Presa di Rete Doppia",
+      "giocatori": 4,
+      "tipi": [
+        "dritto",
+        "rovescio"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "chiquita",
+        "risposta"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Chiquita in risposta, lato non specificato. Lato non specificato nel testo: inserito in dritto e rovescio.",
+      "obiettivo": "Schema di risposta aggressivo sulla battuta avversaria.",
+      "disposizione": "A1 (Servizio), A2 (Rete); A3 (Risposta), A4 (Fondo).",
+      "esecuzione": [
+        "1. A1 serve su A3.",
+        "2. A3 gioca una *chiquita* millimetrica nello spazio centrale tra A1 (che sta salendo) ed A2.",
+        "3. Contemporaneamente alla chiquita, sia A3 che A4 scattano a rete per togliere il tempo ad A1 ed A2 e prendere il nastro al terzo colpo."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1 (Batteria)   A2 (Rete)   |\n|                 │                  |\n|                 ▼ (Servizio)       |\n|-----------------[R]----------------|\n|        A3 (Risposta)   A4 (Fondo)  |\n|        │                │          |\n|        ├──► Chiquita ───┤          |\n|        │    al Centro   │          |\n|        ▼                ▼          |\n|     (A3 e A4 SCATTANO INSIEME A RETE)\n+------------------------------------+"
+    },
+    {
+      "id": 91,
+      "volume": 2,
+      "titolo": "Punti con Obbligo di 3 Tocchi di Parete per Game",
+      "giocatori": 4,
+      "tipi": [
+        "uscita_parete_alta",
+        "uscita_parete_bassa",
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "salida",
+        "gioco_a_punti"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Partita con obbligo di 3 salida per game. Salida generica: inserita in uscita alta e bassa.",
+      "obiettivo": "Aumentare la familiarità con l'uso delle pareti di fondo in situazione reale.",
+      "disposizione": "Partita 2 vs 2 normale; M come arbitro di sedia.",
+      "esecuzione": [
+        "1. Si gioca un game vero a punti.",
+        "2. Per poter aggiudicarsi il game sul 40-30 o Advantage, la coppia deve aver completato con successo durante i punti di quel game almeno 3 uscite da parete (Salida de Pared).",
+        "3. Stimola l'uso difensivo consapevole del vetro di fondo."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1              A2          |\n|-----------------[R]----------------|\n|        A3              A4          |\n|                                    |\n|  (PER VINCERE IL GAME, OGNI COPPIA |\n|   DEVE GIOCARE ALMENO 3 SALIDA DE  |\n|   PARED VALIDE NEL CORSO DEI PUNTI)|\n+------------------------------------+"
+    },
+    {
+      "id": 92,
+      "volume": 2,
+      "titolo": "Difesa dell'Angolo Morto (Corta + Griglia)",
+      "giocatori": 4,
+      "tipi": [
+        "uscita_parete_bassa"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "griglia",
+        "smorzata",
+        "difesa"
+      ],
+      "affidabilita_tipo": "incerto",
+      "da_verificare": true,
+      "nota_classificazione": "Palla corta vicino alla griglia.",
+      "obiettivo": "Risolvere la palla piazzata nell'angolo smorzato vicino alla griglia.",
+      "disposizione": "A1+A2 a rete; A3+A4 a fondo.",
+      "esecuzione": [
+        "1. A1 da rete esegue una volée smorzata corta che rimbalza vicinissima alla griglia di A3.",
+        "2. A3 deve compiere uno scatto diagonale immediato, infilare la pala sotto la palla prima che impatti la griglia e rigiocarla in pallonetto o chiquita."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1 (Rete)       A2 (Rete)   |\n|        │                           |\n|        │ (1) Volée smorzata        |\n|        ▼     angolata              |\n|-----------------[R]----------------|\n|   [G] A3 (Fondo)      A4 (Fondo)   |\n|       (A3 deve scattare in diagonale|\n|        e rigiocare di controbalzo) |\n+------------------------------------+"
+    },
+    {
+      "id": 93,
+      "volume": 2,
+      "titolo": "Il \"Cross-Smash\" di Coppia (Smash Incrociato Intercettato)",
+      "giocatori": 4,
+      "tipi": [
+        "palla_alta",
+        "uscita_parete_alta"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "smash",
+        "bajada"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Smash incrociato poi bajada.",
+      "obiettivo": "Leggere la direzione dello smash avversario per il contropiede a rete.",
+      "disposizione": "A1+A2 a rete; A3+A4 a fondo.",
+      "esecuzione": [
+        "1. A2 esegue uno smash incrociato verso il vetro di fondo di A3.",
+        "2. A3 legge la rotazione, fa due passi avanti anziché arretrare e colpisce la palla appena esce dal vetro con una *Bajada* diretta sul corpo di A1."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1 (Rete)       A2 (Rete)   |\n|                        ▲           |\n|                        │ (1) Smash |\n|                        │     Incroc.|\n|-----------------[R]────┴──────────-|\n|        A3 (Fondo)      A4 (Fondo)  |\n|        │                           |\n|        └──► (2) A3 anticipa il     |\n|             rimbalzo sul vetro e   |\n|             scavalla con Contro-Smash|\n+------------------------------------+"
+    },
+    {
+      "id": 94,
+      "volume": 2,
+      "titolo": "Partita a Zona Vincolata (No Central Zone)",
+      "giocatori": 4,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "gioco_a_punti"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Partita con zona centrale vietata.",
+      "obiettivo": "Forzare i giocatori a cercare gli angoli e le pareti laterali.",
+      "disposizione": "Partita 2 vs 2; la striscia centrale di 1 metro per tutta la lunghezza del campo è considerata \"FUORI\".",
+      "esecuzione": [
+        "1. Si gioca un game vero a punti.",
+        "2. La fascia centrale del campo (larghezza 1 metro) è contrassegnata come \"fuori limite\".",
+        "3. Se una palla inviata da qualsiasi giocatore rimbalza nella fascia centrale, il punto viene assegnato agli avversari.",
+        "4. Sviluppa la precisione chirurgica verso gli angoli e le griglie."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1  │ (ZONA) │  A2          |\n|            │ (ROSSA)│              |\n|------------┼- - - - ┼--------------|\n|            │ (VIETAT│              |\n|        A3  │  A)    │  A4          |\n+------------------------------------+"
+    },
+    {
+      "id": 95,
+      "volume": 2,
+      "titolo": "La \"Víbora al Doppio Vetro\" ed Inserimento del Compagno",
+      "giocatori": 4,
+      "tipi": [
+        "palla_alta"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "vibora",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Víbora ed inserimento del compagno.",
+      "obiettivo": "Creare il caos nella difesa avversaria mediante la rotazione della Víbora.",
+      "disposizione": "A1+A2 a rete; A3+A4 a fondo.",
+      "esecuzione": [
+        "1. A1 esegue una *Víbora* arrotata verso il vetro laterale di A3.",
+        "2. La palla tocca il vetro laterale, poi il vetro di fondo impazzendo nella rotazione.",
+        "3. A2 (compagno di A1) segue con gli occhi la difficoltà di A3 ed avanza a rete a 50 cm dal nastro per schiacciare al volo la palla respinta male."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1 (Rete SX)    A2 (Rete DX)|\n|        │                           |\n|        │ (1) Víbora al doppio vetro|\n|        ▼                           |\n|-----------------[R]----------------|\n|        A3 (Fondo SX)   A4 (Fondo DX)|\n|        (A3 soffre la rotazione;    |\n|         A2 stringe a rete per chiudere)\n+------------------------------------+"
+    },
+    {
+      "id": 96,
+      "volume": 2,
+      "titolo": "La \"Contrapared\" di Salvataggio Estremo in Match",
+      "giocatori": 4,
+      "tipi": [
+        "uscita_parete_bassa"
+      ],
+      "livelli": [
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Intermedio / Avanzato",
+      "extra": [
+        "contrapared"
+      ],
+      "affidabilita_tipo": "incerto",
+      "da_verificare": true,
+      "nota_classificazione": "Colpo contro il proprio vetro di fondo.",
+      "obiettivo": "Gestione del colpo contro la propria parete di fondo in situazione reale.",
+      "disposizione": "Partita 2 vs 2 a punti.",
+      "esecuzione": [
+        "1. A1 gioca un colpo profondo che supera A3 e sta per fare il secondo punto a terra vicinissimo al vetro di fondo.",
+        "2. A3 non ha lo spazio per infilare la pala dietro la palla: spara un colpo violento direttamente contro il proprio vetro di fondo (*Contrapared*).",
+        "3. La palla deve schizzare in alto, superare la rete e ricadere nel campo di A1 ed A2."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1              A2          |\n|-----------------[R]----------------|\n|        A3              A4          |\n|     (Vetro)                        |\n|        │                           |\n|        └──► (Spara la palla VIOLENTEMENTE\n|              contro il PROPRIO VETRO\n|              per farla schizzare in alto\n|              sopra la rete avversaria)\n+------------------------------------+"
+    },
+    {
+      "id": 97,
+      "volume": 2,
+      "titolo": "Il \"Pressione Totale\" – Servizio e Risposta Senza Lob",
+      "giocatori": 4,
+      "tipi": [
+        "volee_dritto",
+        "volee_rovescio"
+      ],
+      "livelli": [
+        "avanzato"
+      ],
+      "livello_originale": "Avanzato",
+      "extra": [
+        "servizio",
+        "risposta"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Servizio, risposta, volée senza lob.",
+      "obiettivo": "Sviluppare uno scambio d'impatto ad altissima velocità nei primi 4 colpi.",
+      "disposizione": "A1 (Servizio), A2 (Rete); A3 (Risposta), A4 (Fondo).",
+      "esecuzione": [
+        "1. A1 serve su A3.",
+        "2. Nei primi 4 colpi dello scambio (Servizio, Risposta, Volée d'attacco, Contro-volée/Chiquita) è tassativamente vietato usare il pallonetto.",
+        "3. Costringe i 4 giocatori a giocarne una partita di ritmo, riflessi e controllo rasoterra."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1 (Servizio)   A2 (Rete)   |\n|-----------------[R]----------------|\n|        A3 (Risposta)   A4 (Fondo)  |\n|                                    |\n|  (VIETATO QUALSIASI LOB NEI PRIMI  |\n|   4 PASSI / COLPI DELLO SCAMBIO)   |\n+------------------------------------+"
+    },
+    {
+      "id": 98,
+      "volume": 2,
+      "titolo": "Il \"Rientro dal Basso\" (Da Fondo a Rete in 3 Passaggi)",
+      "giocatori": 4,
+      "tipi": [
+        "volee_dritto",
+        "volee_rovescio"
+      ],
+      "livelli": [
+        "intermedio"
+      ],
+      "livello_originale": "Intermedio",
+      "extra": [
+        "chiquita",
+        "tattica_coppia"
+      ],
+      "affidabilita_tipo": "esplicito",
+      "da_verificare": false,
+      "nota_classificazione": "Chiquita e volée di transizione.",
+      "obiettivo": "Insegnare alla coppia a fondo come avanzare progressivamente \"a mezza rampa\".",
+      "disposizione": "A1+A2 a rete; A3+A4 a fondo.",
+      "esecuzione": [
+        "1. A3 ed A4 partono a fondo.",
+        "2. Passo 1: A3 gioca una *chiquita* ed la coppia avanza fino alla linea di servizio.",
+        "3. Passo 2: A4 gioca una volée di transizione profonda ed la coppia conquista il nastro.",
+        "4. Automatizza la progressione a tappe senza scatti sconsiderati."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1 (Rete)       A2 (Rete)   |\n|-----------------[R]----------------|\n|        A3 (Fondo)      A4 (Fondo)  |\n|        │                │          |\n|        ▼ (1) Chiquita   ▼ (2) Volée  |\n|     (Avanzano a metà) (Avanzano a rete)|\n+------------------------------------+"
+    },
+    {
+      "id": 99,
+      "volume": 2,
+      "titolo": "Tie-Break \"Gold Point\" (Punto d'Oro under Pressure)",
+      "giocatori": 4,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "principiante",
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Tutti i livelli",
+      "extra": [
+        "gioco_a_punti"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Punto d'oro, nessun tipo specifico.",
+      "obiettivo": "Abituare i 4 allievi alla gestione mentale del punto secco d'oro (*Punto de Oro*).",
+      "disposizione": "Partita 2 vs 2; ogni singolo punto giocato vale come \"Punto d'Oro\".",
+      "esecuzione": [
+        "1. Si gioca una serie di game speciali dove non esistono i punteggi 15-30-40, ma ogni palla è un Gold Point.",
+        "2. La coppia alla risposta sceglie il lato da cui ricevere il servizio.",
+        "3. Massimizza l'attenzione, la tensione agonistica ed il rispetto della tattica prefissata."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1              A2          |\n|-----------------[R]----------------|\n|        A3              A4          |\n|                                    |\n|  (OGNI SINGOLO PUNTO È UN GOLD     |\n|   POINT SECCO: CHI VINCE IL PUNTO  |\n|   INCASSA IL GAME)                 |\n+------------------------------------+"
+    },
+    {
+      "id": 100,
+      "volume": 2,
+      "titolo": "Grand Slam Padel – Il Test Finale di Squadra",
+      "giocatori": 4,
+      "tipi": [
+        "tattica_gioco"
+      ],
+      "livelli": [
+        "principiante",
+        "intermedio",
+        "avanzato"
+      ],
+      "livello_originale": "Tutti i livelli",
+      "extra": [
+        "gioco_a_punti"
+      ],
+      "affidabilita_tipo": "dedotto",
+      "da_verificare": false,
+      "nota_classificazione": "Partita completa con statistiche.",
+      "obiettivo": "Valutazione globale dell'autonomia tattica, tecnica e comunicativa dei 4 allievi.",
+      "disposizione": "Partita reale a set completo con rilevamento statistico del Maestro.",
+      "esecuzione": [
+        "Matrice di Valutazione del Maestro (Dati statistici rilevati):",
+        "1. Efficacia della Prima di Servizio: % di punti vinti sulla prima battuta.",
+        "2. Rapporto Gratuiti/Vincenti: Bilancio tra colpi vincenti ed errori non forzati di ciascuna coppia.",
+        "3. Percentuale di Conquista della Rete: Quante volte la coppia a fondo è riuscita a strappare il nastro.",
+        "4. Tenuta Mentale nei Punti Decisivi: Gestione dei momenti chiave del match.",
+        "Conclusione del Corso: Consegna della Scheda Valutazione Finale 1-100 con la mappa dei punti di forza ed le aree di miglioramento individuali per ciascun allievo."
+      ],
+      "varianti": [],
+      "schema": "+------------------------------------+\n|        A1 (Coppia A)   A2          |\n|-----------------[R]----------------|\n|        A3 (Coppia B)   A4          |\n|                                    |\n|                 M (Supervisor con  |\n|                    Match-Stats)    |\n+------------------------------------+\n\nQuesto secondo manuale completa la serie di 100 esercizi strutturati per il tuo insegnamento sul campo."
+    }
+  ]
+}
